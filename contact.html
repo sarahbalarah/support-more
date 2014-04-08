@@ -9,70 +9,67 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   </head>
-  <body>
 
+  <body>
     <nav class="top-bar" data-topbar>
       <div class="small-4 columns">
         <ul class="title-area">
           <h1><a href="#"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
         </ul>
       </div>
-
       <section class="top-bar-section">
         <ul class="right">
-          <li class="active"><a href="#">LOG IN</a></li>
+          <li class="has-form">
+            <div class="row collapse">
+              <div class="large-8 small-9 columns">
+                <input type="text" placeholder="Search by name, organizer name, area...">
+              </div>
+              <div class="large-4 small-3 columns">
+                <a href="#" class="alert button expand">Search</a>
+              </div>
+            </div>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">HI USERNAME</a>
+            <ul class="dropdown">
+              <li><a href="#">YOUR ACCOUNT</a></li>
+              <li><a href="#">YOUR PAGES</a></li>
+              <li><a href="#">LOG OUT</a></li>
+            </ul>
+          </li>
         </ul>
       </section>
     </nav>
 
     <div class="row">
-      <div class="small-11 small-centered columns">
-        <h1>Support what matters.</h1>
-      </div>
+      <h3>Contact Us</h3>
     </div>
-    <div class="row">
-      <div class="small-11 small-centered columns">
-        <h2>Find a cause you believe in.<h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="small-11 small-centered columns">
-        <div class="row collapse">
-          <div class="small-4 columns">
-            <input type="text" placeholder="Search by name, organizer name, area..." />
-          </div>
-          <div class="small-8 columns">
-            <a href="#" class="small button">SEARCH</a>
+    <form>
+      <div class="row">
+        <div class="small-8">
+          <div class="row">
+            <div class="small-3 columns">
+              <label for="right-label" class="right inline">Your Email Address</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" id="right-label">
+            </div>
           </div>
         </div>
-       <div> 
-    </div>
+      </div>
+      <div class="row">
+        <div class="small-3 columns">
+         <label for="right-label" class="right inline">Message</label>
+        </div>
+        <div class="small-9 columns">
+          <textarea id="right-label"></textarea>
+        </div>
+      </div>
+    </form>
 
-    <div class="row collapse">
-      <div class="small-5 columns">
-        <a href="#"><img src="images/boy.png" alt="Charity Name"/></a>
-      </div>
-      <div class="small-3 columns">
-        <a href="#"><img src="images/construction.png" alt="Charity Name"/></a>
-      </div>
-      <div class="small-4 columns">
-        <a href="#"><img src="images/girl.png" alt="Charity Name"/></a>
-      </div>
-    </div>
-
-    <div class="row collapse">
-      <div class="small-3 columns">
-        <a href="#"><img src="images/dogs.png" alt="Charity Name"/></a>
-      </div>
-      <div class="small-3 columns">
-        <a href="#"><img src="images/jug.png" alt="Charity Name"/></a>
-      </div>
-      <div class="small-4 columns">
-        <a href="#"><img src="images/dog-cat.png" alt="Charity Name"/></a>
-      </div>
-      <div class="small-2 columns">
-        <a href="#"><img src="images/runners.png" alt="Charity Name"/></a>
+     <div class="row">
+      <div class="small-2 small-offset-10">
+        <a href="#" class="small button">SEND</a>
       </div>
     </div>
 
@@ -92,6 +89,7 @@
         <p>2014 Copyright Support More. All Rights Reserved.</p>
       </div>
     </div>
+
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
