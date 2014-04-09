@@ -12,17 +12,20 @@
 
   <body>
     <nav class="top-bar" data-topbar>
-      <div class="small-4 columns">
+      <div class="small-3 columns">
         <ul class="title-area">
-          <h1><a href="#"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+          <li class="name">
+            <h1><a href="#"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+          </li>
         </ul>
       </div>
+      
       <section class="top-bar-section">
         <ul class="right">
           <li class="has-form">
             <div class="row collapse">
               <div class="large-8 small-9 columns">
-                <input type="text" placeholder="Search by name, organizer name, area...">
+                <input type="text" placeholder="Name, organizer, area...">
               </div>
               <div class="large-4 small-3 columns">
                 <a href="#" class="alert button expand">Search</a>
@@ -30,55 +33,62 @@
             </div>
           </li>
           <li class="has-dropdown">
-            <a href="#">HI USERNAME</a>
+            <a class='username' href="#">Hi Username</a>
             <ul class="dropdown">
-              <li><a href="#">YOUR ACCOUNT</a></li>
-              <li><a href="#">YOUR PAGES</a></li>
-              <li><a href="#">LOG OUT</a></li>
+              <li><a href="#">Your Account</a></li>
+              <li><a href="#">Your Pages</a></li>
+              <li><a href="index.html">Log Out</a></li>
             </ul>
           </li>
         </ul>
       </section>
     </nav>
-
-    <div class="row">
-      <div class="small-2">
-        <img src="images/boy-square.png"/>
-      </div>
-      <div class="small-7">
-        <h2>Charity Name</h2>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</h3>
-        <a href="#">email@emailaddress.com</a>
-        <a href="#">website.org</a>
-        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="sarahbalarah">Tweet</a>
-      </div>
-      <div class="small-3">
-        <div class="panel callout">
-          <h3>GIVE YOUR SUPPORT</h3>
-          <input type="text" placeholder="$0.00"/>
-          <a href="#" class="alert button">DONATE</a>
+    
+    <section class="main">
+      
+      <div class="row">
+        <div class="key-image small-2 columns">
+          <img src="images/boy-square.png"/>
+        </div>
+        <div class="description small-7 columns">
+          <a href="#" class="right"><img src="heart.svg" alt="heart" title="Add to favorites"/></a>
+          <h1>Charity Name</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+          <ul>
+            <li><a href="#">email@emailaddress.com</a></li>
+            <li><a href="#">website.org</a></li>
+          </ul>
+          <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="sarahbalarah">Tweet</a>
+        </div>
+        <div class="donation-box small-3 columns">
+          <div class="panel callout">
+            <h2>Give Your Support</h2>
+            <input type="text" placeholder="$0.00"/>
+            <a href="#" class="alert button">Donate</a>
+          </div>
         </div>
       </div>
 
+      <footer>
+        <div class="row">
+          <div class="small-4 medium-2 columns">
+            <a href="/"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+          </div>
+          <nav class="small-4 medium-6 medium-offset-4 small-offset-6 columns">
+            <ul>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
 
-
-    <div class="row collapse">
-      <div class="small-4 medium-2 columns">
-        <a href="/"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
-      </div>
-      <div class="small-4 medium-6 medium-offset-4 small-offset-6 columns">
-        <a href="#">Sitemap</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Contact</a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="small-11 small-centered columns">
-        <p>2014 Copyright Support More. All Rights Reserved.</p>
-      </div>
-    </div>
+        <div class="copyright">
+          <p>Copyright 2014 Support More. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </section>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>

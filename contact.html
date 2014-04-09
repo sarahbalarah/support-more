@@ -6,23 +6,25 @@
     <title>Support More</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
   </head>
 
   <body>
     <nav class="top-bar" data-topbar>
-      <div class="small-4 columns">
+      <div class="small-3 columns">
         <ul class="title-area">
-          <h1><a href="#"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+          <li class="name">
+            <h1><a href="#"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+          </li>
         </ul>
       </div>
+      
       <section class="top-bar-section">
         <ul class="right">
           <li class="has-form">
             <div class="row collapse">
               <div class="large-8 small-9 columns">
-                <input type="text" placeholder="Search by name, organizer name, area...">
+                <input type="text" placeholder="Name, organizer, area...">
               </div>
               <div class="large-4 small-3 columns">
                 <a href="#" class="alert button expand">Search</a>
@@ -30,66 +32,66 @@
             </div>
           </li>
           <li class="has-dropdown">
-            <a href="#">HI USERNAME</a>
+            <a class='username' href="#">Hi Username</a>
             <ul class="dropdown">
-              <li><a href="#">YOUR ACCOUNT</a></li>
-              <li><a href="#">YOUR PAGES</a></li>
-              <li><a href="#">LOG OUT</a></li>
+              <li><a href="#">Your Account</a></li>
+              <li><a href="#">Your Pages</a></li>
+              <li><a href="index.html">Log Out</a></li>
             </ul>
           </li>
         </ul>
       </section>
     </nav>
+    <section class="main">
 
-    <div class="row">
-      <h3>Contact Us</h3>
-    </div>
-    <form>
-      <div class="row">
-        <div class="small-8">
-          <div class="row">
-            <div class="small-3 columns">
-              <label for="right-label" class="right inline">Your Email Address</label>
+      <h1>Contact Us</h1>
+
+      <form>
+        <div class="row">
+          <div class="small-6">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="contact-email" class="right inline">Your Email Address</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="email" name='email' id="contact-email" >
+              </div>
             </div>
-            <div class="small-9 columns">
-              <input type="text" id="right-label">
+            <div class="row">
+              <div class="small-4 columns">
+               <label for="contact-message" class="right inline">Message</label>
+              </div>
+              <div class="small-8 columns">
+                <textarea id="contact-message" rows='8'></textarea>
+              </div>
+            </div>
+            <div class='right inline'>
+              <a href="#" class="small button">Send</a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="small-3 columns">
-         <label for="right-label" class="right inline">Message</label>
+      </form>
+
+
+      <footer>
+        <div class="row">
+          <div class="small-4 medium-2 columns">
+            <a href="/"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+          </div>
+          <nav class="small-4 medium-6 medium-offset-4 small-offset-6 columns">
+            <ul>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="small-9 columns">
-          <textarea id="right-label"></textarea>
+
+        <div class="copyright">
+          <p>Copyright 2014 Support More. All Rights Reserved.</p>
         </div>
-      </div>
-    </form>
-
-     <div class="row">
-      <div class="small-2 small-offset-10">
-        <a href="#" class="small button">SEND</a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="small-4 medium-2 columns">
-        <a href="/"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
-      </div>
-      <div class="small-4 medium-6 medium-offset-4 small-offset-6 columns">
-        <a href="#">Sitemap</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Contact</a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="small-11 small-centered columns">
-        <p>2014 Copyright Support More. All Rights Reserved.</p>
-      </div>
-    </div>
-
+      </footer>
+    </section>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
