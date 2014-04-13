@@ -40,8 +40,9 @@
 
 // We use these to control various global styles
 // $body-bg: #fff;
-// $body-font-color: #222;
+$body-font-color: #333;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: 'Open Sans', sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -54,12 +55,13 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
+$primary-color: #d85351;
+$secondary-color: #629aae;
+$tertiary-color: #dcdcdc;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
-// $info-color: #a0d3e8;
+$info-color: $secondary-color;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -170,7 +172,7 @@
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
-// $hr-border-color: #ddd;
+$hr-border-color: $tertiary-color;
 // $hr-margin: rem-calc(20);
 
 // We use these to style lists
@@ -257,7 +259,7 @@
 // $alert-border-color: scale-color($primary-color, $lightness: $alert-function-factor);
 // $alert-bottom-margin: rem-calc(20);
 
-// We use these to style the close buttons
+// We use these to style the close lightness
 // $alert-close-color: #333;
 // $alert-close-top: 50%;
 // $alert-close-position: rem-calc(4);
@@ -345,7 +347,7 @@
 // $button-font-align: center;
 
 // We use these to control various hover effects.
-// $button-function-factor: -20%;
+//$button-function-factor: 0;
 
 // We use these to control button border styles.
 // $button-border-width: 0px;
@@ -1168,7 +1170,7 @@
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: #333;
+$topbar-bg-color: $primary-color;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin

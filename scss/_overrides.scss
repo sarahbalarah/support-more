@@ -1,41 +1,7 @@
-// COLORS
-$primary-color: #d85351;
-$secondary-color: #629aae;
-$tertiary-color: #dcdcdc;
-
-// FONTS
-$header-font-family: 'Open Sans', sans-serif;
-
-// USES
-$dividing-line-color: $tertiary-color;
-
-body {
+img.logo {
+  height: 20px;
 }
 
-h1 {
-	font-size: 48px;
-}
-
-p {
-	color: #333333;
-}
-
-hr {
-	color: $tertiary-color;
-}
-
-.top-bar {
-	background-color: $primary-color;
-}
-
-.top-bar-section {
-	background-color: $primary-color;
-}
-
-.button {
-	background-color: $primary-color; 
-}
-
-.small {
-	background-color: $secondary-color;
+.index-page {
+  background-color: $primary-color;
 }

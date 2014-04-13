@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
+  
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,84 +11,99 @@
   </head>
 
   <body>
-    <div id="fb-root"></div>
+    
     <nav class="top-bar" data-topbar>
-      <div class="small-3 columns">
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="index-li.html"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
-          </li>
-        </ul>
-      </div>
-      
-      <section class="top-bar-section">
-        <ul class="right">
-          <li class="has-form">
-            <div class="row collapse">
-              <div class="large-8 small-9 columns">
-                <input type="text" placeholder="Name, organizer, area...">
-              </div>
-              <div class="large-4 small-3 columns">
-                <a href="#" class="alert button expand">Search</a>
-              </div>
-            </div>
-          </li>
-          <li class="has-dropdown">
-            <a class='username' href="#">Hi Username</a>
-            <ul class="dropdown">
-              <li><a href="youraccount.html">Your Account</a></li>
-              <li><a href="yourpages.html">Your Pages</a></li>
-              <li><a href="charitypage-nli.html">Log Out</a></li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+     <ul class="title-area">
+       <li class="name">
+         <h1><a href="index-li.html"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+       </li>
+     </ul>
+     <section class="top-bar-section">
+       <ul class="right">
+         <li class="has-form">
+           <div class="row collapse">
+             <div class="large-8 small-9 columns">
+               <input type="text" placeholder="Name, organizer, area...">
+             </div>
+             <div class="large-4 small-3 columns">
+               <a href="searchresults-li.html" class="alert button expand">Search</a>
+             </div>
+           </div>
+         </li>
+         <li class="has-dropdown">
+           <a class='username' href="#">Hi Username</a>
+           <ul class="dropdown">
+             <li class="has-dropdown hover"><a href="#">Your Account</a>
+               <ul class="dropdown">
+                 <li><a href='yoursettings.html'>Account Settings</a></li>
+                 <li><a href='yourfavorites.html'>Favorites</a></li>
+                 <li><a href='yourdonations.html'>Donations</a></li>
+               </ul>
+             </li>
+             <li class="has-dropdown hover"><a href="#">Your Pages</a>
+               <ul class="dropdown">
+                 <li class="has-dropdown hover"><a href="#">Charity 1</a>
+                   <ul class="dropdown">
+                     <li><a href='charitypage-edit.html'>Edit Page</a></li>
+                     <li><a href='yourpagesettings.html'>Page Settings</a></li>
+                     <li><a href='yourgraphs.html'>Graphs</a></li>
+                     <li><a href='yourdonators.html'>Donators</a></li>
+                   </ul>
+                 </li>
+                 <li><a href="charitypage-edit.html">Create New Page</a></li>
+               </ul>
+             </li>
+             <li><a href="charitypage-nli.html">Log Out</a></li>
+           </ul>
+         </li>
+       </ul>
+     </section>
     </nav>
     
     <section class="main">
       
-      <div class="row">
-        <div class="key-image small-2 columns">
-          <img src="images/boy-square.png"/>
-        </div>
-        <div class="description small-7 columns">
-          <a href="#" class="right"><img src="images/heart-outline.png" alt="heart" title="Add to favorites"/></a>
-          <h1>Charity Name</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-          <ul>
-            <li><a href="#">email@emailaddress.com</a></li>
-            <li><a href="#">website.org</a></li>
-          </ul>
-          <a href="#">Like on Facebook</a>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-via="sarahbalarah">Tweet</a>
-        </div>
-        <div class="donation-box small-3 columns">
-          <div class="panel callout">
-            <h2>Give Your Support</h2>
-            <input type="text" placeholder="$0.00"/>
-            <a href="/donate" data-reveal-id="donateModal" class="alert button" data-reveal>Donate</a>
-          </div>
+      <div class="key-image">
+        <img src="images/boy-square.png"/>
+      </div>
+    
+      <div class="description">
+        <a href="#" class="right"><img src="images/heart-outline.png" alt="heart" title="Add to favorites"/></a>
+        <h2>Charity Name</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+        <ul>
+          <li><a href="#">email@emailaddress.com</a></li>
+          <li><a href="#">website.org</a></li>
+        </ul>
+        <a href="#">Like on Facebook</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="sarahbalarah">Tweet</a>
+      </div>
+    
+      <div class="donation-box">
+        <div class="panel callout">
+          <h3>Give Your Support</h3>
+          <input type="text" placeholder="$0.00"/>
+          <a href="/donate" data-reveal-id="donateModal" class="alert button" data-reveal>Donate</a>
         </div>
       </div>
-
+      
       <div class="row">
-        <h2>Mission</h2>
+        <h3>Mission</h3>
         <hr />
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inven.</p>
       </div>
       
       <div class="row">
-        <h2>Gallery</h2>
+        <h3>Gallery</h3>
         <hr />
         <ul class="clearing-thumbs small-block-grid-4" data-clearing>
-          <li><a href="images/boy.png"><img data-caption="caption here..." src="images/boy-th.png"></a></li>
-          <li><a href="images/jug.png"><img data-caption="caption 2 here..." src="images/jug-th.png"></a></li>
-          <li><a href="images/girl.png"><img data-caption="caption 3 here..." src="images/girl-th.png"></a></li>
+          <li><a href="images/boy.png"><img data-caption="caption here..." src="images/boy-th.png"/></a></li>
+          <li><a href="images/jug.png"><img data-caption="caption 2 here..." src="images/jug-th.png"/></a></li>
+          <li><a href="images/girl.png"><img data-caption="caption 3 here..." src="images/girl-th.png"/></a></li>
         </ul>
       </div>
       
       <div class="row">
-        <h2>Updates</h2>
+        <h3>Updates</h3>
         <hr />
         <div>
           <p>04/03/14</p>
@@ -101,173 +117,108 @@
           <p>02/03/14</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inven</p>
         </div>
-        <a href="updates-li.html" class="small button">See More</a>
+        <a href="updates-li.html" class="small info button">See More</a>
       </div>
 
       <div class="row">
-        <h2>Upcoming Events</h2>
+        <h3>Upcoming Events</h3>
         <hr />
-        <h3>Charity Event</h3><p>23 May 2014</p>
+        <h4>Charity Event</h4>
+        <p>23 May 2014</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae</p>
-        <a href="#" class="small button">More Info</a>
+        <a href="#" class="small info button">More Info</a>
       </div>
 
       <div class="row">
-        <h2>Comments</h2>
+        <h3>Comments</h3>
         <hr />
         <p><strong>Username </strong>about 3 hours ago</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae</p>
+        
         <div>
-          <h3>Leave a comment</h3>
+          <h4>Leave a comment</h4>
           <textarea></textarea>
-          <a href="#" class="small button">Post</a>
+          <a href="#" class="small info button">Post</a>
         </div>
       </div>
 
       <footer>
-        <div class="row">
-          <div class="small-4 medium-2 columns">
-            <a href="index-li.html"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
-          </div>
-          <nav class="small-4 medium-6 medium-offset-4 small-offset-6 columns">
-            <ul>
-              <li><a href="sitemap-li.html">Sitemap</a></li>
-              <li><a href="termsofservice-li.html">Terms of Service</a></li>
-              <li><a href="contact-li.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+       
+        <a href="index-li.html"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+        
+        <nav>
+          <ul>
+            <li><a href="sitemap-li.html">Sitemap</a></li>
+            <li><a href="termsofservice-li.html">Terms of Service</a></li>
+            <li><a href="contact-li.html">Contact</a></li>
+          </ul>
+        </nav>
 
         <div class="copyright">
           <p>Copyright 2014 Support More. All Rights Reserved.</p>
         </div>
+        
       </footer>
       
     </section>
     
     <div id="donateModal" class="reveal-modal" data-reveal>  
+      
       <h2>Donate</h2>
       <h3>You're donating $0.00 to Charity Name</h3>
-      <div class="row">
-        <input id="payment-checkbox" type="checkbox"><label for="payment-checkbox">Use saved payment Visa 5555?</label>
-      </div>
-      <div class="row">
-        <h4>Or use a new card.</h4>
-      </div>
-      <div class="row">
-        <div class="small-6 columns">
-          <div class="row">
-            <div class="small-4 columns">
-              <label for="name" class="right inline">Name on Card</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" name="name" id="donate-name"/>
-            </div>
-          </div>
-        </div>
-      </div>  
-      <div class="row">
-        <div class="small-6 columns">
-          <div class="row">
-            <div class="small-4 columns">
-              <label for="account-number" class="right inline">Account Number</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" name="account-number" id="donate-account-number"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-6 columns">
-          <div class="row">
-            <div class="small-4 columns">
-              <label for="exp-date" class="right inline">Expiration Date</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" name="exp-date" id="donate-exp-date"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-6 columns">
-          <div class="row">
-            <div class="small-4 columns">
-              <label for="cvv" class="right inline">CVV</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" name="cvv" id="donate-cvv"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-6 columns">
-          <div class="row">
-            <div class="small-4 columns">
-              <label for="address1" class="right inline">Billing Address Line 1</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" name="address1" id="donate-address1"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-6 columns">
-          <div class="row">
-            <div class="small-4 columns">
-              <label for="address2" class="right inline">Billing Address Line 2</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" name="address2" id="donate-address2"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-6 columns">
-          <div class="row">
-            <div class="small-4 columns">
-              <label for="city" class="right inline">City</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" name="city" id="donate-city"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-6 columns">
-          <div class="row">
-            <div class="small-4 columns">
-              <label for="state" class="right inline">State</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" name="state" id="donate-state"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <input id="recurring-checkbox" type="checkbox"><label for="recurring-checkbox">Make this a recurring donation.</label>
-      </div>
-      <div class="row">
-        <p><a href='#thankyou' data-reveal-id="thankyouDonationModal" class='button'>Donate</a></p>
-      </div>
+      
+      <input id="payment-checkbox" type="checkbox"><label for="payment-checkbox">Use saved payment Visa 5555?</label>
+      
+      <h4>Or use a new card.</h4>
+      
+      <label for="name" class="right inline">Name on Card</label>
+      <input type="text" name="name" id="donate-name"/>
+  
+      <label for="account-number" class="right inline">Account Number</label>
+      <input type="text" name="account-number" id="donate-account-number"/>
+  
+      <label for="exp-date" class="right inline">Expiration Date</label>
+      <input type="text" name="exp-date" id="donate-exp-date"/>
+      
+      <label for="cvv" class="right inline">CVV</label>
+      <input type="text" name="cvv" id="donate-cvv"/>
+      
+      <label for="address1" class="right inline">Billing Address Line 1</label>
+      <input type="text" name="address1" id="donate-address1"/>
+      
+      <label for="address2" class="right inline">Billing Address Line 2</label>
+      <input type="text" name="address2" id="donate-address2"/>
+      
+      <label for="city" class="right inline">City</label>
+      <input type="text" name="city" id="donate-city"/>
+      
+      <label for="state" class="right inline">State</label>
+      <input type="text" name="state" id="donate-state"/>
+      
+      <input id="recurring-checkbox" type="checkbox">
+      <label for="recurring-checkbox">Make this a recurring donation.</label>
+
+      <p><a href='#thankyou' data-reveal-id="thankyouDonationModal" class='button'>Donate</a></p>
+
       <a class="close-reveal-modal">&#215;</a>
+
     </div>
 
     <div id="thankyouDonationModal" class="reveal-modal" data-reveal>
+      
       <h2>Thank you for your donation!</h2>
-      <p><a href='charitypage-li.html' class='button'>Done</a></p>
+      
+      <p><a href='#' class='button'>Done</a></p>
+      
       <a class="close-reveal-modal">&#215;</a>
+      
     </div>
     
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  
   </body>
+
 </html>

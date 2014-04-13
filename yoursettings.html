@@ -1,0 +1,195 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support More</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+  </head>
+  
+  <body>
+    
+    <nav class="top-bar" data-topbar>
+     <ul class="title-area">
+       <li class="name">
+         <h1><a href="index-li.html"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+       </li>
+     </ul>
+     <section class="top-bar-section">
+       <ul class="right">
+         <li class="has-form">
+           <div class="row collapse">
+             <div class="large-8 small-9 columns">
+               <input type="text" placeholder="Name, organizer, area...">
+             </div>
+             <div class="large-4 small-3 columns">
+               <a href="searchresults-li.html" class="alert button expand">Search</a>
+             </div>
+           </div>
+         </li>
+         <li class="has-dropdown">
+           <a class='username' href="#">Hi Username</a>
+           <ul class="dropdown">
+             <li class="has-dropdown hover"><a href="#">Your Account</a>
+               <ul class="dropdown">
+                 <li><a href='yoursettings.html'>Account Settings</a></li>
+                 <li><a href='yourfavorites.html'>Favorites</a></li>
+                 <li><a href='yourdonations.html'>Donations</a></li>
+               </ul>
+             </li>
+             <li class="has-dropdown hover"><a href="#">Your Pages</a>
+               <ul class="dropdown">
+                 <li class="has-dropdown hover"><a href="#">Charity 1</a>
+                   <ul class="dropdown">
+                     <li><a href='charitypage-edit.html'>Edit Page</a></li>
+                     <li><a href='yourpagesettings.html'>Page Settings</a></li>
+                     <li><a href='yourgraphs.html'>Graphs</a></li>
+                     <li><a href='yourdonators.html'>Donators</a></li>
+                   </ul>
+                 </li>
+                 <li><a href="charitypage-edit.html">Create New Page</a></li>
+               </ul>
+             </li>
+             <li><a href="index-nli.html">Log Out</a></li>
+           </ul>
+         </li>
+       </ul>
+     </section>
+    </nav>
+    
+    <section class="main">
+      
+      <h2>Your Account Settings</h2>
+        
+      <div class="float_left">
+        
+				<h3>Personal Information</h3>
+			    
+        <label for="email" class="right inline">Email</label>
+		    <input type="text" name="email" id="personal-email"/>
+		    
+		    <label for="name" class="right inline">Full Name</label>
+		    <input type="text" name="name" id="personal-name"/>
+		    
+		    <label for="username" class="right inline">Username</label>
+		    <input type="text" name="username" id="personal-username"/>
+		    
+		    <label for="zip" class="right inline">Zip Code</label>
+		    <input type="text" name="zip" id="personal-zip"/>
+		    
+        <label for="password" class="right inline">New Password</label>
+		    <input type="password" name="password" id="personal-password"/>
+		    
+        <label for="confirm-password" class="right inline">Confirm New Password</label>
+		    <input type="password" name="confirm-password" id="personal-confirm-password"/>
+		    
+		    <p><a href='#' class='small info button'>Save Changes</a></p>
+      
+      </div>
+			
+      <div class="float_right">
+        
+        <h3>Payment Information</h3>
+			  
+        <p>Visa ending in 5555</p>
+			  <a href="/editCard" data-reveal-id="editCardModal" data-reveal>Edit</a>
+        
+        <h4>Add Credit Card</h4>
+			  
+        <label for="name" class="right inline">Name on Card</label>
+				<input type="text" name="name" id="donate-name"/>
+				
+        <label for="account-number" class="right inline">Account Number</label>
+			  <input type="text" name="account-number" id="donate-account-number"/>
+			  
+        <label for="exp-date" class="right inline">Expiration Date</label>
+			  <input type="text" name="exp-date" id="donate-exp-date"/>
+			  
+        <label for="cvv" class="right inline">CVV</label>
+			  <input type="text" name="cvv" id="donate-cvv"/>
+			  
+        <label for="address1" class="right inline">Billing Address Line 1</label>
+			  <input type="text" name="address1" id="donate-address1"/>
+			  
+        <label for="address2" class="right inline">Billing Address Line 2</label>
+			  <input type="text" name="address2" id="donate-address2"/>
+			  
+        <label for="city" class="right inline">City</label>
+			  <input type="text" name="city" id="donate-city"/>
+			  
+        <label for="state" class="right inline">State</label>
+			  <input type="text" name="state" id="donate-state"/>
+			  
+        <label for="zip" class="right inline">Zip Code</label>
+			  <input type="text" name="zip" id="donate-zip"/>
+			  
+        <p><a href='#' class='small info button'>Add Card</a></p>
+
+      </div>
+
+      <footer>
+        
+        <a href="index-li.html"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+
+        <nav>
+          <ul>
+            <li><a href="sitemap-li.html">Sitemap</a></li>
+            <li><a href="termsofservice-li.html">Terms of Service</a></li>
+            <li><a href="contact-li.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="copyright">
+          <p>Copyright 2014 Support More. All Rights Reserved.</p>
+        </div>
+
+      </footer>
+      
+    </section>
+    
+    <div id="editCardModal" class="reveal-modal" data-reveal>
+      
+      <h2>Edit Visa 5555</h2>
+      
+      <label for="name" class="right inline">Name on Card</label>
+      <input type="text" name="name" id="edit-name"/>
+      
+      <label for="account-number" class="right inline">Account Number</label>
+      <input type="text" name="account-number" id="edit-account-number"/>
+      
+      <label for="exp-date" class="right inline">Expiration Date</label>
+      <input type="text" name="exp-date" id="edit-exp-date"/>
+      
+      <label for="cvv" class="right inline">CVV</label>
+      <input type="text" name="cvv" id="edit-cvv"/>
+      
+      <label for="address1" class="right inline">Billing Address Line 1</label>
+      <input type="text" name="address1" id="edit-address1"/>
+      
+      <label for="address2" class="right inline">Billing Address Line 2</label>
+      <input type="text" name="address2" id="edit-address2"/>
+      
+      <label for="city" class="right inline">City</label>
+      <input type="text" name="city" id="edit-city"/>
+      
+      <label for="state" class="right inline">State</label>
+      <input type="text" name="state" id="edit-state"/>
+      
+      <label for="zip" class="right inline">Zip Code</label>
+      <input type="text" name="zip" id="edit-zip"/>
+      
+      <p><a href='#' class='button'>Done</a></p>
+      
+      <a class="close-reveal-modal">&#215;</a>
+      
+    </div>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    
+  </body>
+  
+</html>
