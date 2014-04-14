@@ -5,3 +5,68 @@ img.logo {
 .index-page {
   background-color: $primary-color;
 }
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  
+  &.index-page {
+    color: #fff;
+    margin-top: 0;
+    padding-top: 150px;
+    font-size: 48px;;
+  }
+
+}
+
+h3 {
+  
+  &.index-page {
+    color: #fff;
+    margin-bottom: 25px;
+  }
+
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  
+  &.index-page {
+    margin-bottom: 150px;
+  }
+  
+}
+footer {
+  background-color: $tertiary-color;
+  padding-top: 15px;
+  
+  ul {
+    float: right;
+  }
+  
+}
+
+.copyright {
+  background-color: $secondary-color;
+  padding: 15px;
+  color: #fff;
+}
+
+img {
+  
+  &.mosaic {
+    margin: 0;
+    padding: 0;  
+  }
+
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}

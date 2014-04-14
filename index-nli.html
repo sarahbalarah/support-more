@@ -14,9 +14,9 @@
 
     <nav class="top-bar" data-topbar>
       <ul class="title-area">
-        <li class="name">
-          <h1><a href="#"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
-        </li>
+       <li class="name">
+         <h1><a href="#"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+       </li>
       </ul>
     
       <section class="top-bar-section">
@@ -26,14 +26,20 @@
       </section>
     </nav>
 
-    <section class="main index-page">
+		<section class="main index-page">
       
-      <h1>Support what matters.</h1>
-      <h2>Find a cause you believe in.</h2>
-      <input type="text" placeholder="Name, organizer, area..." />
-      <a href="searchresults-nli.html" class="button">Search</a>
+        <div class="index-page center">
+          <h2 class="index-page">Support what matters.</h2>
+          <h3 class="index-page">Find a cause you believe in.</h3>
+
+          <div class="row">
+            <div class="small-6 small-centered columns">
+              <input class="index-page" type="text" placeholder="Name, organizer, area..." />
+            </div>
+          </div>
+        </div>
     
-      <div class="mosaic">
+      <div class="mosaic center">
         <a href="charitypage-nli.html"><img src="images/boy.png" alt="Charity Name"/></a>
         <a href="charitypage-nli.html"><img src="images/construction.png" alt="Charity Name"/></a>
         <a href="charitypage-nli.html"><img src="images/girl.png" alt="Charity Name"/></a>
@@ -44,47 +50,75 @@
       </div>
 
       <footer>
-        <a href="index-nli.html"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
         
-        <nav>
-          <ul>
-            <li><a href="sitemap-nli.html">Sitemap</a></li>
-            <li><a href="termsofservice-nli.html">Terms of Service</a></li>
-            <li><a href="contact-nli.html">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <div class="small-12">
+            <a href="#"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+      
+            <ul class="inline-list">
+              <li><a href="sitemap-nli.html">Sitemap</a></li>
+              <li><a href="termsofservice-nli.html">Terms of Service</a></li>
+              <li><a href="contact-nli.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
 
-        <div class="copyright">
+        <div class="copyright center">
           <p>Copyright 2014 Support More. All Rights Reserved.</p>
         </div>
-        
+      
       </footer>
 
     </section>
     
-    <div id="loginModal" class="reveal-modal" data-reveal>  
-      
+    <div id="loginModal" class="reveal-modal" data-reveal> 
       <h2>Log In</h2>
         
-      <label for="username" class="right inline">Username</label>
-      <input type="text" name="username" id="login-username"/>
-        
-      <label for="password" class="right inline">Password</label>
-      <input type="password" name="password" id="login-password"/>
-      
-      <p><a href="#forgot-password" data-reveal-id="forgotPasswordModal" data-reveal>Forgot Password?</a></p>
-      
-      <p>Don't have an account yet? <a href="#signup" data-reveal-id="signupModal" data-reveal>Sign up</a>.</p>
-      
-      <p><a href='index-li.html' class='button'>Log In</a></p>
-      
-      <hr />
-      
-      <a href="index-li.html" class="button">Facebook</a>
-      <a href="index-li.html" class="button">Twitter</a>
-      
-      <a class="close-reveal-modal">&#215;</a>
-    
+      <form>
+        <div class="row">
+          <div class="small-12">
+            <div class="row">
+              <div class="small-2 columns">
+                <label for="username" class="right inline">Username</label>
+              </div>
+              <div class="small-10 columns">
+                <input type="text" name="username" id="login-username"/>
+              </div>
+            </div>
+          </div>
+          <div class="small-12">
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="password" class="right inline">Password</label>
+            </div>
+            <div class="small-10 columns">
+              <input type="password" name="password" id="login-password"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="small-12">
+              <div class"row">
+                <div class="small-8 columns">
+                  <p><a href="#forgot-password" data-reveal-id="forgotPasswordModal" data-reveal>Forgot Password?</a><br />
+                  Don't have an account yet? <a href="#signup" data-reveal-id="signupModal" data-reveal>Sign up</a>.</p>
+                </div>
+                <div class="small-4 columns">
+                  <p><a href='index-li.html' class='button'>Log In</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <a href="index-li.html" class="button">Facebook</a>
+
+          <a href="index-li.html" class="button">Twitter</a>
+
+          <a class="close-reveal-modal">&#215;</a>
+
+        </div>
+      </form> 
     </div>
     
     <div id="signupModal" class="reveal-modal" data-reveal>

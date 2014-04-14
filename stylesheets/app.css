@@ -5930,7 +5930,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #333333;
+  background: #dd6b69;
   font-size: 16px;
   margin: 0;
 }
@@ -5953,7 +5953,7 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
-  background: #333333;
+  background: #dd6b69;
 }
 /* line 313, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
@@ -6075,7 +6075,7 @@ meta.foundation-mq-topbar {
 }
 /* line 336, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background: #272727;
+  background: #d33b39;
   color: white;
 }
 /* line 343, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6259,7 +6259,7 @@ meta.foundation-mq-topbar {
   }
   /* line 475, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background: #272727;
+    background: #d33b39;
     color: white;
   }
   /* line 481, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6270,7 +6270,7 @@ meta.foundation-mq-topbar {
   }
   /* line 485, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #272727;
+    background: #d33b39;
   }
   /* line 489, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -6344,17 +6344,17 @@ meta.foundation-mq-topbar {
     line-height: 1;
     white-space: nowrap;
     padding: 12px 15px;
-    background: #333333;
+    background: #dd6b69;
   }
   /* line 556, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
     color: white;
-    background: #333333;
+    background: #dd6b69;
   }
   /* line 560, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
     color: white;
-    background: #272727;
+    background: #d33b39;
   }
   /* line 565, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -6402,7 +6402,7 @@ meta.foundation-mq-topbar {
 
   /* line 618, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #d33b39;
     color: white;
   }
   /* line 624, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6720,7 +6720,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #d85351;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -6729,7 +6729,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 239, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: #e68f8e;
   line-height: 0;
 }
 
@@ -6766,7 +6766,7 @@ h6 {
 /* line 253, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #e68f8e;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -6918,7 +6918,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #555555;
+  color: #e17b79;
 }
 /* line 378, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -6927,14 +6927,14 @@ blockquote cite:before {
 /* line 383, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #555555;
+  color: #e17b79;
 }
 
 /* line 389, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f;
+  color: #e68f8e;
 }
 
 /* Microformats */
@@ -7799,4 +7799,62 @@ img.logo {
 /* line 5, ../scss/_overrides.scss */
 .index-page {
   background-color: #d85351;
+}
+
+/* line 9, ../scss/_overrides.scss */
+.center {
+  text-align: center;
+}
+
+/* line 15, ../scss/_overrides.scss */
+h2.index-page {
+  color: #fff;
+  margin-top: 0;
+  padding-top: 150px;
+  font-size: 48px;
+}
+
+/* line 26, ../scss/_overrides.scss */
+h3.index-page {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+/* line 33, ../scss/_overrides.scss */
+p {
+  margin: 0;
+}
+
+/* line 39, ../scss/_overrides.scss */
+input.index-page {
+  margin-bottom: 150px;
+}
+
+/* line 44, ../scss/_overrides.scss */
+footer {
+  background-color: gainsboro;
+  padding-top: 15px;
+}
+/* line 48, ../scss/_overrides.scss */
+footer ul {
+  float: right;
+}
+
+/* line 54, ../scss/_overrides.scss */
+.copyright {
+  background-color: #629aae;
+  padding: 15px;
+  color: #fff;
+}
+
+/* line 62, ../scss/_overrides.scss */
+img.mosaic {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 69, ../scss/_overrides.scss */
+a {
+  margin: 0;
+  padding: 0;
 }
