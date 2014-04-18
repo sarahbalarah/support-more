@@ -10,6 +10,10 @@ img.logo {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 h2 {
   
   &.index-page {
@@ -57,16 +61,125 @@ footer {
   color: #fff;
 }
 
-img {
-  
-  &.mosaic {
-    margin: 0;
-    padding: 0;  
-  }
-
-}
-
 a {
   margin: 0;
   padding: 0;
 }
+
+ul {  
+  list-style-type: none;
+}
+
+ul.mosaic {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+ul.mosaic li {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+}
+
+ul.mosaic li.row-one {
+  height: 250px;
+
+}
+
+ul.mosaic li.row-two {
+  height: 200px;
+}
+
+ul.mosaic li.image-one {
+  max-width: 400px;
+}
+
+ul.mosaic li.image-two {
+  max-width: 200px;
+}
+
+ul.mosaic li.image-three {
+  max-width: 420px;
+}
+
+ul.mosaic li.image-four {
+  max-width: 170px;
+}
+
+ul.mosaic li.image-five {
+  max-width: 250px;
+}
+
+ul.mosaic li.image-six {
+  max-width: 400px;
+}
+
+ul.mosaic li.image-seven {
+  max-width: 200px;
+}
+
+span.charity-name {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  position: absolute;
+  top: 0; 
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.row-one {
+  height: 250px;
+}
+
+span.row-two {
+  height: 200px;
+}
+
+span.image-one {
+  width: 400px;
+}
+
+span.image-two {
+  width: 200px;
+}
+
+span.image-three {
+  width: 420px;
+}
+
+span.image-four {
+  width: 170px;
+}
+
+span.image-five {
+  width: 250px;
+}
+
+span.image-six {
+  width: 400px;
+}
+
+span.image-seven {
+  width: 200px;
+}
+
+span.charity-name span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+ul.mosaic li:hover span.charity-name {
+  opacity: 1;
+}
+
+

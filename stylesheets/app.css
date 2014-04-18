@@ -6075,7 +6075,7 @@ meta.foundation-mq-topbar {
 }
 /* line 336, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background: #d33b39;
+  background: #d0312f;
   color: white;
 }
 /* line 343, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6259,7 +6259,7 @@ meta.foundation-mq-topbar {
   }
   /* line 475, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background: #d33b39;
+    background: #d0312f;
     color: white;
   }
   /* line 481, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6270,7 +6270,7 @@ meta.foundation-mq-topbar {
   }
   /* line 485, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #d33b39;
+    background: #d0312f;
   }
   /* line 489, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -6354,7 +6354,7 @@ meta.foundation-mq-topbar {
   /* line 560, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
     color: white;
-    background: #d33b39;
+    background: #d0312f;
   }
   /* line 565, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -6402,7 +6402,7 @@ meta.foundation-mq-topbar {
 
   /* line 618, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #d33b39;
+    background: #d0312f;
     color: white;
   }
   /* line 624, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7806,7 +7806,12 @@ img.logo {
   text-align: center;
 }
 
-/* line 15, ../scss/_overrides.scss */
+/* line 13, ../scss/_overrides.scss */
+.right {
+  text-align: right;
+}
+
+/* line 19, ../scss/_overrides.scss */
 h2.index-page {
   color: #fff;
   margin-top: 0;
@@ -7814,47 +7819,180 @@ h2.index-page {
   font-size: 48px;
 }
 
-/* line 26, ../scss/_overrides.scss */
+/* line 30, ../scss/_overrides.scss */
 h3.index-page {
   color: #fff;
   margin-bottom: 25px;
 }
 
-/* line 33, ../scss/_overrides.scss */
+/* line 37, ../scss/_overrides.scss */
 p {
   margin: 0;
 }
 
-/* line 39, ../scss/_overrides.scss */
+/* line 43, ../scss/_overrides.scss */
 input.index-page {
   margin-bottom: 150px;
 }
 
-/* line 44, ../scss/_overrides.scss */
+/* line 48, ../scss/_overrides.scss */
 footer {
   background-color: gainsboro;
   padding-top: 15px;
 }
-/* line 48, ../scss/_overrides.scss */
+/* line 52, ../scss/_overrides.scss */
 footer ul {
   float: right;
 }
 
-/* line 54, ../scss/_overrides.scss */
+/* line 58, ../scss/_overrides.scss */
 .copyright {
   background-color: #629aae;
   padding: 15px;
   color: #fff;
 }
 
-/* line 62, ../scss/_overrides.scss */
-img.mosaic {
+/* line 64, ../scss/_overrides.scss */
+a {
   margin: 0;
   padding: 0;
 }
 
 /* line 69, ../scss/_overrides.scss */
-a {
+ul {
+  list-style-type: none;
+}
+
+/* line 73, ../scss/_overrides.scss */
+ul.mosaic {
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+/* line 81, ../scss/_overrides.scss */
+ul.mosaic li {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+}
+
+/* line 87, ../scss/_overrides.scss */
+ul.mosaic li.row-one {
+  height: 250px;
+}
+
+/* line 92, ../scss/_overrides.scss */
+ul.mosaic li.row-two {
+  height: 200px;
+}
+
+/* line 96, ../scss/_overrides.scss */
+ul.mosaic li.image-one {
+  max-width: 400px;
+}
+
+/* line 100, ../scss/_overrides.scss */
+ul.mosaic li.image-two {
+  max-width: 200px;
+}
+
+/* line 104, ../scss/_overrides.scss */
+ul.mosaic li.image-three {
+  max-width: 420px;
+}
+
+/* line 108, ../scss/_overrides.scss */
+ul.mosaic li.image-four {
+  max-width: 170px;
+}
+
+/* line 112, ../scss/_overrides.scss */
+ul.mosaic li.image-five {
+  max-width: 250px;
+}
+
+/* line 116, ../scss/_overrides.scss */
+ul.mosaic li.image-six {
+  max-width: 400px;
+}
+
+/* line 120, ../scss/_overrides.scss */
+ul.mosaic li.image-seven {
+  max-width: 200px;
+}
+
+/* line 124, ../scss/_overrides.scss */
+span.charity-name {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+/* line 139, ../scss/_overrides.scss */
+span.row-one {
+  height: 250px;
+}
+
+/* line 143, ../scss/_overrides.scss */
+span.row-two {
+  height: 200px;
+}
+
+/* line 147, ../scss/_overrides.scss */
+span.image-one {
+  width: 400px;
+}
+
+/* line 151, ../scss/_overrides.scss */
+span.image-two {
+  width: 200px;
+}
+
+/* line 155, ../scss/_overrides.scss */
+span.image-three {
+  width: 420px;
+}
+
+/* line 159, ../scss/_overrides.scss */
+span.image-four {
+  width: 170px;
+}
+
+/* line 163, ../scss/_overrides.scss */
+span.image-five {
+  width: 250px;
+}
+
+/* line 167, ../scss/_overrides.scss */
+span.image-six {
+  width: 400px;
+}
+
+/* line 171, ../scss/_overrides.scss */
+span.image-seven {
+  width: 200px;
+}
+
+/* line 175, ../scss/_overrides.scss */
+span.charity-name span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 181, ../scss/_overrides.scss */
+ul.mosaic li:hover span.charity-name {
+  opacity: 1;
 }

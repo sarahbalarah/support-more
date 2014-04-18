@@ -13,11 +13,11 @@
   <body>
     
     <nav class="top-bar" data-topbar>
-     <ul class="title-area">
+      <ul class="title-area">
        <li class="name">
-         <h1><a href="index-li.html"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+         <h1><a href="index-li.html"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
        </li>
-     </ul>
+      </ul>
      <section class="top-bar-section">
        <ul class="right">
          <li class="has-form">
@@ -26,7 +26,7 @@
                <input type="text" placeholder="Name, organizer, area...">
              </div>
              <div class="large-4 small-3 columns">
-               <a href="searchresults-li.html" class="alert button expand">Search</a>
+               <a href="searchresults-li.html" class="button expand">Search</a>
              </div>
            </div>
          </li>
@@ -62,27 +62,33 @@
     
     <section class="main">
       
-      <div class="key-image">
-        <img src="images/boy-square.png"/>
-      </div>
-    
-      <div class="description">
-        <a href="#" class="right"><img src="images/heart-outline.png" alt="heart" title="Add to favorites"/></a>
-        <h2>Charity Name</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
-        <ul>
-          <li><a href="#">email@emailaddress.com</a></li>
-          <li><a href="#">website.org</a></li>
-        </ul>
-        <a href="#">Like on Facebook</a>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="sarahbalarah">Tweet</a>
-      </div>
-    
-      <div class="donation-box">
-        <div class="panel callout">
-          <h3>Give Your Support</h3>
-          <input type="text" placeholder="$0.00"/>
-          <a href="/donate" data-reveal-id="donateModal" class="alert button" data-reveal>Donate</a>
+      <div class="row">
+        <div class="small-12 columns">
+          
+          <div class="small-2 columns">
+            <img src="images/boy-square.png"/>
+          </div>
+          
+          <div class="small-7 columns">
+            <a href="#" class="right"><img src="images/heart-outline.png" alt="heart" title="Add to favorites"/></a>
+            <h2>Charity Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            <ul>
+              <li><a href="#">email@emailaddress.com</a></li>
+              <li><a href="#">website.org</a></li>
+            </ul>
+            <a href="#">Like on Facebook</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="sarahbalarah">Tweet</a>
+          </div>
+        
+          <div class="small-3 columns">
+            <div class="panel callout">
+              <h3>Give Your Support</h3>
+              <input type="text" placeholder="$0.00"/>
+              <a href="/donate" data-reveal-id="donateModal" class="button" data-reveal>Donate</a>
+            </div>
+          </div>
+          
         </div>
       </div>
       
@@ -143,22 +149,25 @@
       </div>
 
       <footer>
-       
-        <a href="index-li.html"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
         
-        <nav>
-          <ul>
-            <li><a href="sitemap-li.html">Sitemap</a></li>
-            <li><a href="termsofservice-li.html">Terms of Service</a></li>
-            <li><a href="contact-li.html">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <div class="small-12">
+            <a href="#"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+      
+            <ul class="inline-list">
+              <li><a href="sitemap-li.html">Sitemap</a></li>
+              <li><a href="termsofservice-li.html">Terms of Service</a></li>
+              <li><a href="contact-li.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
 
-        <div class="copyright">
+        <div class="copyright center">
           <p>Copyright 2014 Support More. All Rights Reserved.</p>
         </div>
-        
+      
       </footer>
+
       
     </section>
     
