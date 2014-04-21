@@ -13,11 +13,11 @@
   <body>
 
     <nav class="top-bar" data-topbar>
-      
       <ul class="title-area">
-        <li class="name">
-          <h1><a href="index-nli.html"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
-        </li>
+       <li class="name">
+         <h1><a href="index-nli.html"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+       </li>
+       <li class="toggle-topbar menu-icon"><a href="#"></a></li>
       </ul>
 
       <section class="top-bar-section">
@@ -28,134 +28,245 @@
                 <input type="text" placeholder="Name, organizer, area...">
               </div>
               <div class="large-4 small-3 columns">
-                <a href="#" class="alert button expand">Search</a>
+                <a href="searchresults-nli.html" class="button expand">Search</a>
               </div>
             </div>
           </li>
           <li class="active"><a href="/login" data-reveal-id="loginModal" data-reveal>Log In</a></li>
         </ul>
       </section>
-      
     </nav>
 
     <section class="main">
+      
+      <div class="row">
+        
+        <div class="small-12 columns">  
+          <h2>Search Results</h2>
+        </div>
 
-      <h2>Search Results</h2>
-
-      <hr />
-      <a href="charitypage-nli.html"><img src="images/boy-th.png"/></a>
-      <h3>Charity Name</h3>
-   	 <img src="images/heart-outline.png"/>
-      <p>Anytown, USA</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-
-      <hr />
-      <a href="charitypage-nli.html"><img src="images/girl-th.png"/></a>
-      <h3>Charity Name</h3>
-   	 <img src="images/heart-outline.png"/>
-      <p>Anytown, USA</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-
-      <hr />
-      <a href="charitypage-nli.html"><img src="images/jug-th.png"/></a>
-      <h3>Charity Name</h3>
-   	 <img src="images/heart-outline.png"/>
-      <p>Anytown, USA</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-
-      <hr />
-
+        <div class="small-12 columns">
+          <hr />
+          <div class="small-4 medium-4 columns">
+            <a href="charitypage-nli.html"><img src="images/boy-th.png"/></a>
+          </div>
+          <div class="small-8 medium-8 columns">
+            <a href="#" class="right"><img src="images/heart-outline.png" alt="heart" title="Add to favorites"/></a>
+            <h3>Charity Name</h3>
+            <p>Anytown, USA</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+          </div>
+        </div>
+      
+        <div class="small-12 columns">
+          <hr />
+          <div class="small-4 medium-4 columns">
+            <a href="charitypage-nli.html"><img src="images/girl-th.png"/></a>
+          </div>
+          <div class="small-8 medium-8 columns">
+            <a href="#" class="right"><img src="images/heart-outline.png" alt="heart" title="Add to favorites"/></a>
+            <h3>Charity Name</h3>
+            <p>Anytown, USA</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+          </div>
+        </div>
+        
+        <div class="small-12 columns">
+          <hr />
+          <div class="small-4 medium-4 columns">
+            <a href="charitypage-nli.html"><img src="images/jug-th.png"/></a>
+          </div>
+          <div class="small-8 medium-8 columns">
+            <a href="#" class="right"><img src="images/heart-outline.png" alt="heart" title="Add to favorites"/></a>
+            <h3>Charity Name</h3>
+            <p>Anytown, USA</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+          </div>
+        </div>
+        
+        <div class="small-12 columns">
+          <hr />
+        </div>
+        
+      </div>
+      
       <footer>
-
-        <a href="index-nli.html"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
-
-        <nav>
-          <ul>
-            <li><a href="sitemap-nli.html">Sitemap</a></li>
-            <li><a href="termsofservice-nli.html">Terms of Service</a></li>
-            <li><a href="contact-nli.html">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <div class="small-2 medium-6 columns">
+            <a href="index-nli.html"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+          </div>
+          <div class="small-10 medium-6 columns">
+            <ul class="inline-list right">
+              <li><a href="sitemap-nli.html">Sitemap</a></li>
+              <li><a href="termsofservice-lni.html">Terms of Service</a></li>
+              <li><a href="contact-nli.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
 
         <div class="copyright">
           <p>Copyright 2014 Support More. All Rights Reserved.</p>
         </div>
-
+      
       </footer>
-
+      
     </section>
 
-    <div id="loginModal" class="reveal-modal" data-reveal>
+    <div id="loginModal" class="reveal-modal" data-reveal> 
       
-      <h2>Log In</h2>
+      <div class="row">
+        <h3>Log In</h3>
         
-      <label for="username" class="right inline">Username</label>
-      <input type="text" name="username" id="login-username"/>
-        
-      <label for="password" class="right inline">Password</label>
-      <input type="password" name="password" id="login-password"/>
-      
-      <p><a href="#forgot-password" data-reveal-id="forgotPasswordModal" data-reveal>Forgot Password?</a></p>
-      
-      <p>Don't have an account yet? <a href="#signup" data-reveal-id="signupModal" data-reveal>Sign up</a>.</p>
-      
-      <p><a href='searchresults-li.html' class='button'>Log In</a></p>
-      
-      <hr />
-      
-      <a href="searchresults-li.html" class="button">Facebook</a>
-      <a href="searchresults-li.html" class="button">Twitter</a>
-      
-      <a class="close-reveal-modal">&#215;</a>
-    
-    </div>
-
-    <div id="signupModal" class="reveal-modal" data-reveal>
-      
-      <h2>Sign Up</h2>
-      
-      <label for="username" class="right inline">Username</label>
-      <input type="text" name="username" id="signup-username"/>
-      
-      <label for="email" class="right inline">Email Address</label>
-      <input type="text" name="email" id="signup-email"/>
-      
-      <label for="password" class="right inline">Password</label>
-      <input type="password" name="password" id="signup-password"/>
-
-      <p>Already have an account? <a href="#login" data-reveal-id="loginModal" data-reveal>Log in</a>.</p>
-      <p><a href='yoursettings.html' class='button'>Sign Up</a></p>
-
-      <hr />
+        <form>
+          <div class="row">
+          
+            <div class="small-12 columns">
+              <div class="row">
+                <div class="small-4 columns">
+                  <label for="username" class="left inline">Username</label>
+                </div>
+                <div class="small-8 columns">
+                  <input type="text" name="username" id="login-username"/>
+                </div>
+              </div>
+            </div>
             
-      <a href="yoursettings.html" class="small info button">Facebook</a>
-      <a href="yoursettings.html" class="small info button">Twitter</a>
-      
-      <a class="close-reveal-modal">&#215;</a>
-    
-    </div>
+            <div class="small-12 columns">
+              <div class="row">
+                <div class="small-4 columns">
+                  <label for="password" class="left inline">Password</label>
+                </div>
+                <div class="small-8 columns">
+                  <input type="password" name="password" id="login-password"/>
+                </div>
+              </div>
+            </dov>
+          </div>
+        </form>
 
+        <p><a href="#forgot-password" data-reveal-id="forgotPasswordModal" data-reveal>Forgot Password?</a><br />
+        Don't have an account yet? <a href="#signup" data-reveal-id="signupModal" data-reveal>Sign up</a>.</p>
+
+        <div class="right">
+          <p><a href='searchresults-li.html' class='button'>Log In</a></p>
+        </div>
+
+        <hr />
+        
+        <div class="small-12 columns">
+          <div class="small-6 columns">
+            <a href="searchresults-li.html" class="button expand">Facebook</a>
+          </div>
+          <div class="small-6 columns">
+            <a href="searchresults-li.html" class="button expand">Twitter</a>
+          </div>
+        </div>
+
+        <a class="close-reveal-modal">&#215;</a>
+
+      </div> 
+    </div>
+    
+    <div id="signupModal" class="reveal-modal" data-reveal>
+      <div class="row">
+        <h3>Sign Up</h3>
+
+        <form>
+          
+          <div class="small-12 columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="username" class="left inline">Username</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" name="username" id="signup-username"/>
+              </div>
+            </div>
+          </div>
+          
+          <div class="small-12 columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="email" class="left inline">Email Address</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" name="email" id="signup-email"/>
+              </div>
+            </div>
+          </div>
+          
+          <div class="small-12 columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="password" class="left inline">Password</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="password" name="password" id="signup-password"/>
+              </div>
+            </div>
+          </div>
+          
+        </form>
+        
+        <p>Already have an account? <a href="#login" data-reveal-id="loginModal" data-reveal>Log in</a>.</p>
+
+        <div class="right">
+          <p><a href='yoursettings.html' class='button'>Sign Up</a></p>
+        </div>
+        <hr />
+        <div class="small-12 columns">
+          <div class="small-6 columns">
+            <a href="yoursettings.html" class="button expand">Facebook</a>
+          </div>
+          <div class="small-6 columns">
+            <a href="yoursettings.html" class="button expand">Twitter</a>
+          </div>
+        </div>
+
+        <a class="close-reveal-modal">&#215;</a>
+          
+      </div>
+      
+    </div>
+        
     <div id="forgotPasswordModal" class="reveal-modal" data-reveal>
       
-      <h2>Forgot Password</h2>
+      <h3>Forgot Password</h3>
       <p>Enter your email address and we'll email you instructions to reset your password.</p>
       
-      <label for="email" class="right inline">Email Address</label>
-      <input type="text" name="email" id="forgotPassword-email"/>
-    
-      <p>Remembered your password? <a href="#login" data-reveal-id="loginModal" data-reveal>Log in</a>.</p>
-      <p><a href='#sent' data-reveal-id="sentForgottenPasswordModal" class='button'>Send</a></p>
+      <form>
+        <div class="row">
+          
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="email" class="left inline">Email Address</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" name="email" id="forgotPassword-email"/>
+              </div>
+            </div>
+          </div>
+
+          <p>Remembered your password? <a href="#login" data-reveal-id="loginModal" data-reveal>Log in</a>.</p>
+             
+          <div class="right"><p><a href='#sent' data-reveal-id="sentForgottenPasswordModal" class='button'>Send</a></p>
+          </div>
       
-      <a class="close-reveal-modal">&#215;</a>
-      
+          <a class="close-reveal-modal">&#215;</a>
+           
+        </div>
+      </form>
     </div>
 
     <div id="sentForgottenPasswordModal" class="reveal-modal" data-reveal>
       
-      <h2>Sent!</h2>
+      <h3>Sent!</h3>
       <p>Check your email for instructions to reset your password.</p>
       
-      <p><a href='#' class='button'>Done</a></p>
+      <div class="right">
+        <p><a href='searchresults-nli.html' class='button'>Done</a></p>
+      </div>
       
       <a class="close-reveal-modal">&#215;</a>
     

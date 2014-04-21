@@ -3,62 +3,51 @@ img.logo {
 }
 
 .index-page {
-  background-color: $primary-color;
-}
-
-.center {
-  text-align: center;
-}
-
-.right {
-  text-align: right;
-}
-
-h2 {
-  
-  &.index-page {
+  &.main {
+    background-color: $primary-color;
+  }
+  h2 {
     color: #fff;
     margin-top: 0;
-    padding-top: 150px;
-    font-size: 48px;;
+    padding-top: 100px;
+    font-size: 48px;
+    text-align: center;
   }
-
-}
-
-h3 {
-  
-  &.index-page {
+  h3 {
     color: #fff;
     margin-bottom: 25px;
+    text-align: center;
   }
-
+  input {
+    margin-bottom: 100px;
+  }
 }
+
 
 p {
   margin: 0;
 }
 
-input {
-  
-  &.index-page {
-    margin-bottom: 150px;
-  }
-  
-}
 footer {
   background-color: $tertiary-color;
   padding-top: 15px;
-  
   ul {
-    float: right;
-  }
-  
+    display: inline-block;
+    margin: 0 auto 0 auto;
+    li {
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  } 
 }
 
 .copyright {
   background-color: $secondary-color;
   padding: 15px;
   color: #fff;
+  text-align: center;
 }
 
 a {
@@ -66,59 +55,23 @@ a {
   padding: 0;
 }
 
-ul {  
-  list-style-type: none;
-}
-
 ul.mosaic {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
   font-size: 0;
-}
-
-ul.mosaic li {
-  display: inline-block;
-  position: relative;
-  font-size: 14px;
-}
-
-ul.mosaic li.row-one {
-  height: 250px;
-
-}
-
-ul.mosaic li.row-two {
-  height: 200px;
-}
-
-ul.mosaic li.image-one {
-  max-width: 400px;
-}
-
-ul.mosaic li.image-two {
-  max-width: 200px;
-}
-
-ul.mosaic li.image-three {
-  max-width: 420px;
-}
-
-ul.mosaic li.image-four {
-  max-width: 170px;
-}
-
-ul.mosaic li.image-five {
-  max-width: 250px;
-}
-
-ul.mosaic li.image-six {
-  max-width: 400px;
-}
-
-ul.mosaic li.image-seven {
-  max-width: 200px;
+  li {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    max-height: 300px;
+  }
+  li:hover span.charity-name {
+   opacity: 1;
+  }
+  img {
+    max-height: 300px;
+  }
 }
 
 span.charity-name {
@@ -127,59 +80,42 @@ span.charity-name {
   cursor: pointer;
   display: table;
   left: 0;
+  right: 0;
   position: absolute;
-  top: 0; 
+  bottom: 0; 
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+  max-height: 300px;
+  span {
+    display: table-cell;
+    vertical-align: middle;
+  } 
 }
 
-span.row-one {
-  height: 250px;
+.description {
+  margin-top: 20px;
+  li {
+    list-style: none;
+  }
 }
 
-span.row-two {
-  height: 200px;
+.donate-box {
+  margin-top: 20px;
+    h3 {
+      text-align: center;
+      color: $primary-color;
+    }
 }
 
-span.image-one {
-  width: 400px;
+.date {
+  text-align: right;
 }
 
-span.image-two {
-  width: 200px;
-}
-
-span.image-three {
-  width: 420px;
-}
-
-span.image-four {
-  width: 170px;
-}
-
-span.image-five {
-  width: 250px;
-}
-
-span.image-six {
-  width: 400px;
-}
-
-span.image-seven {
-  width: 200px;
-}
-
-span.charity-name span {
-  display: table-cell;
-  vertical-align: middle;
+.key-image {
+  margin-top: 20px;
   text-align: center;
+
 }
-
-ul.mosaic li:hover span.charity-name {
-  opacity: 1;
-}
-
-

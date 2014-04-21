@@ -13,24 +13,26 @@
   <body>
 
     <nav class="top-bar" data-topbar>
-     <ul class="title-area">
+      <ul class="title-area">
        <li class="name">
-         <h1><a href="index-li.html"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+         <h1><a href="index-li.html"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
        </li>
-     </ul>
-     <section class="top-bar-section">
-       <ul class="right">
-         <li class="has-form">
-           <div class="row collapse">
-             <div class="large-8 small-9 columns">
-               <input type="text" placeholder="Name, organizer, area...">
-             </div>
-             <div class="large-4 small-3 columns">
-               <a href="searchresults-li.html" class="alert button expand">Search</a>
-             </div>
-           </div>
-         </li>
-         <li class="has-dropdown">
+       <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class="has-form">
+            <div class="row collapse">
+              <div class="large-8 small-9 columns">
+                <input type="text" placeholder="Name, organizer, area...">
+              </div>
+              <div class="large-4 small-3 columns">
+                <a href="searchresults-li.html" class="button expand">Search</a>
+              </div>
+            </div>
+          </li>
+          <li class="has-dropdown">
            <a class='username' href="#">Hi Username</a>
            <ul class="dropdown">
              <li class="has-dropdown hover"><a href="#">Your Account</a>
@@ -55,103 +57,168 @@
              </li>
              <li><a href="index-nli.html">Log Out</a></li>
            </ul>
-         </li>
-       </ul>
-     </section>
+          </li>
+        </ul>
+      </section>
     </nav>
     
     <section class="main">
       
-      <h2>Your Donations</h2>
+      <div class="row">
+        <h2>Your Donations</h2>
 
-      <div class="float_left">
+        <div class="small-12 columns">
         
-        <table>
+          <h3>Donation History</h3>
+        
+          <table>
 
-          <thead>
-    			  <tr>
-    		      <th width="100">Date</th>
-    		      <th width="200">Charity Name</th>
-    		      <th width="100">Amount</th>
-    		    </tr>
-    		  </thead>
+            <thead>
+      			  <tr>
+      		      <th width="100">Date</th>
+      		      <th width="200">Charity Name</th>
+      		      <th width="100">Amount</th>
+      		    </tr>
+      		  </thead>
 			  
-          <tbody>
-  			    <tr>
-  			      <td>03/20/14</td>
-  			      <td><a href="charitypage-li.html">Charity Name</a></td>
-  			      <td>$50.00</td>
-  			    </tr>
-  			    <tr>
-  			      <td>02/20/14</td>
-  			      <td><a href="charitypage-li.html">Charity Name</a></td>
-  			      <td>$50.00</td>
-  			    </tr>
-  			    <tr>
-  			      <td>01/20/14</td>
-  			      <td><a href="charitypage-li.html">Charity Name</a></td>
-  			      <td>$50.00</td>
-  			    </tr>
-          </tbody>
+            <tbody>
+    			    <tr>
+    			      <td>03/20/14</td>
+    			      <td><a href="charitypage-li.html">Charity Name</a></td>
+    			      <td>$50.00</td>
+    			    </tr>
+    			    <tr>
+    			      <td>02/20/14</td>
+    			      <td><a href="charitypage-li.html">Charity Name</a></td>
+    			      <td>$50.00</td>
+    			    </tr>
+    			    <tr>
+    			      <td>01/20/14</td>
+    			      <td><a href="charitypage-li.html">Charity Name</a></td>
+    			      <td>$50.00</td>
+    			    </tr>
+            </tbody>
         
-    		</table>
+      		</table>
         
+        </div>
+
+        <div class="small-12 columns">
+        
+          <h3>Recurring Donations</h3>
+          <div class="right">
+            <a href="/editRecurring" data-reveal-id="editRecurringModal" data-reveal>Edit</a>
+          </div>
+        
+          <table>
+        
+            <thead>
+              <tr>
+                <th width="150">Charity Name</th>
+                <th width="50">Repeat</th>
+                <th width="50">Amount</th>
+                <th width="100">Account</th>
+                <th width="50">Started</th>
+                <th width="50">Next Payment</th>                                        
+              </tr>
+            </thead>
+        
+            <tbody>
+              <tr>
+                <td><a href="charitypage-li.html">Charity Name</a></td>
+                <td>Monthly</td>
+                <td>$50.00</td>
+                <td>Visa 5555</td>
+                <td>01/30/14</td>
+                <td>04/30/14</td>
+              </tr>
+            </tbody>
+          </table>
+      
+        </div>
       </div>
-
-      <div class="float_right">
-  			<div class="panel">
-  				<a href="charitypage-li.html">Charity Name</a>
-  				<a href="/editRecurring" data-reveal-id="editRecurringModal" data-reveal>Edit</a>
-  				<p>Repeat: Monthly Amount: $50.00 from Visa 5555 <br />
-  				Started: 01/30/14 Next Payment: 04/30/14</p>
-  			</div>
-  		</div>
-
+      
       <footer>
-        
-        <a href="index-li.html"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
-          
-        <nav>
-          <ul>
-            <li><a href="sitemap-li.html">Sitemap</a></li>
-            <li><a href="termsofservice-li.html">Terms of Service</a></li>
-            <li><a href="contact-li.html">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <div class="small-2 medium-6 columns">
+            <a href="index-li.html"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+          </div>
+          <div class="small-10 medium-6 columns">
+            <ul class="inline-list right">
+              <li><a href="sitemap-li.html">Sitemap</a></li>
+              <li><a href="termsofservice-li.html">Terms of Service</a></li>
+              <li><a href="contact-li.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
 
         <div class="copyright">
           <p>Copyright 2014 Support More. All Rights Reserved.</p>
         </div>
-     
+      
       </footer>
 
     </section>
 
     <div id="editRecurringModal" class="reveal-modal" data-reveal>
       
-      <h2>Edit Recurring Donations</h2>
-    
-      <label for="repeat" class="right inline">Repeat</label>
-			<a href="#" data-dropdown="drop1" class="button dropdown" id="repeat">Monthly</a><br>
-			<ul id="drop1" data-dropdown-content class="f-dropdown">
-			  <li><a href="#">Weekly</a></li>
-				<li><a href="#">Biweekly</a></li>
-				<li><a href="#">Monthly</a></li>
-			</ul>
-    
-      <label for="amount" class="right inline">Donation Amount</label>
-      <input type="text" name="amount" id="edit-amount"/>
-    
-      <label for="account" class="right inline">From Account</label>
-      <a href="#" data-dropdown="drop2" class="button dropdown" id="account">Visa 5555</a><br>
-			<ul id="drop2" data-dropdown-content class="f-dropdown">
-		     <li><a href="#">Visa 5555</a></li>
-			</ul>
-    
-      <p><a href='#' class='button'>Done</a></p>
-    
-      <a class="close-reveal-modal">&#215;</a>
+      <h3>Edit Recurring Donations</h3>
       
+      <form>
+        <div class="row">
+          
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="repeat" class="left inline">Repeat</label>
+              </div>
+              <div class="small-8 columns">
+                <a href="#" data-dropdown="drop1" class="small button dropdown" id="repeat">Monthly</a><br>
+                <ul id="drop1" data-dropdown-content class="f-dropdown">
+                  <li><a href="#">Weekly</a></li>
+                  <li><a href="#">Biweekly</a></li>
+                  <li><a href="#">Monthly</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="amount" class="left inline">Donation Amount</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" name="amount" id="edit-amount"/>
+              </div>
+            </div>
+          </div>
+                
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-4 columns">    
+                <label for="account" class="left inline">From Account</label>
+              </div>
+              <div class="small-8 columns">
+                <a href="#" data-dropdown="drop2" class="small button dropdown" id="account">Visa 5555</a><br>
+                <ul id="drop2" data-dropdown-content class="f-dropdown">
+                  <li><a href="#">Visa 5555</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="small-12 small-centered columns">
+            <p><a href='yourdonations.html'>Cancel your donation.</a></p>
+          </div>
+      
+          <div class="right">
+            <p><a href='yourdonations.html' class='button'>Done</a></p>
+          </div>
+    
+          <a class="close-reveal-modal">&#215;</a>
+        
+        </div>
+      </form>
     </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>

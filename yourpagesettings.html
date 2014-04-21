@@ -12,24 +12,26 @@
   <body>
     
     <nav class="top-bar" data-topbar>
-     <ul class="title-area">
+      <ul class="title-area">
        <li class="name">
-         <h1><a href="index-li.html"><img src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+         <h1><a href="index-li.html"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
        </li>
-     </ul>
-     <section class="top-bar-section">
-       <ul class="right">
-         <li class="has-form">
-           <div class="row collapse">
-             <div class="large-8 small-9 columns">
-               <input type="text" placeholder="Name, organizer, area...">
-             </div>
-             <div class="large-4 small-3 columns">
-               <a href="searchresults-li.html" class="alert button expand">Search</a>
-             </div>
-           </div>
-         </li>
-         <li class="has-dropdown">
+       <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class="has-form">
+            <div class="row collapse">
+              <div class="large-8 small-9 columns">
+                <input type="text" placeholder="Name, organizer, area...">
+              </div>
+              <div class="large-4 small-3 columns">
+                <a href="searchresults-li.html" class="button expand">Search</a>
+              </div>
+            </div>
+          </li>
+          <li class="has-dropdown">
            <a class='username' href="#">Hi Username</a>
            <ul class="dropdown">
              <li class="has-dropdown hover"><a href="#">Your Account</a>
@@ -54,89 +56,174 @@
              </li>
              <li><a href="index-nli.html">Log Out</a></li>
            </ul>
-         </li>
-       </ul>
-     </section>
+          </li>
+        </ul>
+      </section>
     </nav>
  
     <section class="main">
-      
-      <h2>Page Settings</2>
-       
-      <div class="float_left">
-        
-        <h3>Admins</h3>
-        <a href="/addAdmin" data-reveal-id="addAdminModal" data-reveal>Add</a>
-				
-        <p>email@emailaddress.com</p>
-			  <a href="#">Remove</a>
-			  
-        <p>email@emailaddress.com</p>
-			  <a href="#">Remove</a>
-      
-      </div>
 
-      <div class="float_right">
+      <form>
+        <div class="row">
+      
+          <h2>Page Settings</2>
+
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-7 columns">
+                <h3>Admins</h3>
+              </div>
+              <div class="small-5 columns">
+                <p><a href="/addAdmin" data-reveal-id="addAdminModal" data-reveal>Add</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-7 columns">
+                <p>email@emailaddress.com</p>
+              </div>
+              <div class="small-5 columns">
+                <p><a href="#">Remove</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-7 columns">
+                <p>email@emailaddress.com</p>
+              </div>
+              <div class="small-5 columns">
+                <p><a href="#">Remove</a></p>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </form>
+
+      <form>
+        <div class="row">
         
         <h3>Connected Bank Account</h3>
-			  
-        <p>Account ending with 5555</p>
-			  <a href="/editAccount" data-reveal-id="editAccountModal" data-reveal>Edit</a>
-			  
-      </div>
+
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-7 columns">
+                <p>Account ending with 5555</p>
+              </div>
+              <div class="small-5 columns">
+                <a href="/editAccount" data-reveal-id="editAccountModal" data-reveal>Edit</a>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </form>
 
       <footer>
-        
-        <a href="index-li.html"><img src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
-        
-        <nav>
-          <ul>
-            <li><a href="sitemap-li.html">Sitemap</a></li>
-            <li><a href="termsofservice-li.html">Terms of Service</a></li>
-            <li><a href="contact-li.html">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <div class="small-2 medium-6 columns">
+            <a href="index-li.html"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+          </div>
+          <div class="small-10 medium-6 columns">
+            <ul class="inline-list right">
+              <li><a href="sitemap-li.html">Sitemap</a></li>
+              <li><a href="termsofservice-li.html">Terms of Service</a></li>
+              <li><a href="contact-li.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
 
         <div class="copyright">
           <p>Copyright 2014 Support More. All Rights Reserved.</p>
         </div>
-
+      
       </footer>
       
     </section>
     
     <div id="addAdminModal" class="reveal-modal" data-reveal>
     
-      <h2>Add Admin</h2>
-      
-      <label for="name" class="right inline">Name</label>
-      <input type="text" name="name" id="edit-name"/>
-      
-      <label for="email" class="right inline">Email Address</label>
-      <input type="text" name="email" id="add-admin"/>
-      
-      <a href='#' class='button'>Send</a>
-    
-      <a class="close-reveal-modal">&#215;</a>
-    
+      <form>
+        <div class="row">
+          
+          <h2>Add Admin</h2>
+          
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="name" class="left inline">Name</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" name="name" id="edit-name"/>
+              </div>
+            </div>
+          </div>
+          
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="email" class="left inline">Email Address</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" name="email" id="add-admin"/>
+              </div>
+            </div>
+          </div>
+          
+          <div class="right">
+            <a href='yourpagesettings.html' class='button'>Send</a>
+          </div>
+
+          <a class="close-reveal-modal">&#215;</a>
+          
+        </div>
+      </form>
     </div>
     
     <div id="editAccountModal" class="reveal-modal" data-reveal>
       
-      <h2>Edit Bank Account Information</h2>
-        
-      <label for="account-number" class="right inline">Account Number</label>
-      <input type="text" name="account-number" id="edit-account-number"/>
+      <form>
+        <div class="row">
+          
+          <h2>Edit Bank Account Information</h2>
+          
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="account-number" class="left inline">Account Number</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" name="account-number" id="edit-account-number"/>
+              </div>
+            </div>
+          </div>
       
-      <label for="routing-numner" class="right inline">Routing Number</label>
-      <input type="text" name="routing-number" id="edit-routing-number"/>
+          <div class="small-12 small-centered columns">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="routing-numner" class="left inline">Routing Number</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" name="routing-number" id="edit-routing-number"/>
+              </div>
+            </div>
+          </div>
       
-      <a href='#' class='button'>Done</a>
+          <div class="right">
+            <a href='yourpagesettings.html' class='button'>Done</a>
+          </div>
     
-      <a class="close-reveal-modal">&#215;</a>
+          <a class="close-reveal-modal">&#215;</a>
+          
+        </div>
+      </form>
     
     </div>
-		
+
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>

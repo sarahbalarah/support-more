@@ -123,7 +123,7 @@ $info-color: $secondary-color;
 // $header-font-family: $body-font-family;
 // $header-font-weight: normal;
 // $header-font-style: normal;
-$header-font-color: $primary-color;
+$header-font-color: #333;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -1221,8 +1221,8 @@ $topbar-link-bg-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
-// $topbar-menu-link-color-toggled: #888;
-// $topbar-menu-icon-color-toggled: #888;
+$topbar-menu-link-color-toggled: $tertiary-color;
+$topbar-menu-icon-color-toggled: $tertiary-color;
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
