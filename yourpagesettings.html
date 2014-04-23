@@ -11,147 +11,159 @@
   
   <body>
     
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-       <li class="name">
-         <h1><a href="index-li.html"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
-       </li>
-       <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-      </ul>
-
-      <section class="top-bar-section">
-        <ul class="right">
-          <li class="has-form">
-            <div class="row collapse">
-              <div class="large-8 small-9 columns">
-                <input type="text" placeholder="Name, organizer, area...">
-              </div>
-              <div class="large-4 small-3 columns">
-                <a href="searchresults-li.html" class="button expand">Search</a>
-              </div>
-            </div>
-          </li>
-          <li class="has-dropdown">
-           <a class='username' href="#">Hi Username</a>
-           <ul class="dropdown">
-             <li class="has-dropdown hover"><a href="#">Your Account</a>
-               <ul class="dropdown">
-                 <li><a href='yoursettings.html'>Account Settings</a></li>
-                 <li><a href='yourfavorites.html'>Favorites</a></li>
-                 <li><a href='yourdonations.html'>Donations</a></li>
-               </ul>
-             </li>
-             <li class="has-dropdown hover"><a href="#">Your Pages</a>
-               <ul class="dropdown">
-                 <li class="has-dropdown hover"><a href="#">Charity 1</a>
-                   <ul class="dropdown">
-                     <li><a href='charitypage-edit.html'>Edit Page</a></li>
-                     <li><a href='yourpagesettings.html'>Page Settings</a></li>
-                     <li><a href='yourgraphs.html'>Graphs</a></li>
-                     <li><a href='yourdonators.html'>Donators</a></li>
-                   </ul>
-                 </li>
-                 <li><a href="charitypage-edit.html">Create New Page</a></li>
-               </ul>
-             </li>
-             <li><a href="index-nli.html">Log Out</a></li>
-           </ul>
-          </li>
+    <div class="container">
+      
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+         <li class="name">
+           <h1><a href="index-li.html"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+         </li>
+         <li class="toggle-topbar menu-icon"><a href="#"></a></li>
         </ul>
+
+        <section class="top-bar-section">
+          <ul class="right">
+            <li class="has-form">
+              <div class="row collapse">
+                <div class="large-8 small-9 columns">
+                  <input type="text" placeholder="Name, organizer, area...">
+                </div>
+                <div class="large-4 small-3 columns">
+                  <a href="searchresults-li.html" class="button expand">Search</a>
+                </div>
+              </div>
+            </li>
+            <li class="has-dropdown">
+             <a class='username' href="#">Hi Username</a>
+             <ul class="dropdown">
+               <li class="has-dropdown hover"><a href="#">Your Account</a>
+                 <ul class="dropdown">
+                   <li><a href='yoursettings.html'>Account Settings</a></li>
+                   <li><a href='yourfavorites.html'>Favorites</a></li>
+                   <li><a href='yourdonations.html'>Donations</a></li>
+                 </ul>
+               </li>
+               <li class="has-dropdown hover"><a href="#">Your Pages</a>
+                 <ul class="dropdown">
+                   <li class="has-dropdown hover"><a href="#">Charity 1</a>
+                     <ul class="dropdown">
+                       <li><a href='charitypage-edit.html'>Edit Page</a></li>
+                       <li><a href='yourpagesettings.html'>Page Settings</a></li>
+                       <li><a href='yourgraphs.html'>Graphs</a></li>
+                       <li><a href='yourdonators.html'>Donators</a></li>
+                     </ul>
+                   </li>
+                   <li><a href="charitypage-edit.html">Create New Page</a></li>
+                 </ul>
+               </li>
+               <li><a href="index-nli.html">Log Out</a></li>
+             </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+      
+      <section class="main">
+        
+        <div class="content">
+          
+          <form>
+          
+            <div class="row">
+              
+              <h2>Page Settings</2>
+                
+              <div class="small-12 small-centered columns">
+                <div class="row">
+                  <div class="small-7 columns">
+                    <h3>Admins</h3>
+                  </div>
+                  <div class="small-5 columns">
+                    <p><a href="/addAdmin" data-reveal-id="addAdminModal" data-reveal>Add</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="small-12 small-centered columns">
+                <div class="row">
+                  <div class="small-7 columns">
+                    <p>email@emailaddress.com</p>
+                  </div>
+                  <div class="small-5 columns">
+                    <p><a href="#">Remove</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="small-12 small-centered columns">
+                <div class="row">
+                  <div class="small-7 columns">
+                    <p>email@emailaddress.com</p>
+                  </div>
+                  <div class="small-5 columns">
+                    <p><a href="#">Remove</a></p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          
+          </form>
+          
+          <form>
+          
+            <div class="row">
+              
+              <h3>Connected Bank Account</h3>
+              
+              <div class="small-12 small-centered columns">
+                <div class="row">
+                  <div class="small-7 columns">
+                    <p>Account ending with 5555</p>
+                  </div>
+                  <div class="small-5 columns">
+                    <a href="/editAccount" data-reveal-id="editAccountModal" data-reveal>Edit</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          
+          </form>
+          
+        </div>
+        
+        <footer>
+          <div class="row">
+            <div class="small-2 medium-6 columns">
+              <a href="index-li.html"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+            </div>
+            <div class="small-10 medium-6 columns">
+              <ul class="inline-list right">
+                <li><a href="sitemap-li.html">Sitemap</a></li>
+                <li><a href="termsofservice-li.html">Terms of Service</a></li>
+                <li><a href="contact-li.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <p>Copyright 2014 Support More. All Rights Reserved.</p>
+          </div>
+    
+        </footer>
+    
       </section>
-    </nav>
- 
-    <section class="main">
-
-      <form>
-        <div class="row">
       
-          <h2>Page Settings</2>
-
-          <div class="small-12 small-centered columns">
-            <div class="row">
-              <div class="small-7 columns">
-                <h3>Admins</h3>
-              </div>
-              <div class="small-5 columns">
-                <p><a href="/addAdmin" data-reveal-id="addAdminModal" data-reveal>Add</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="small-12 small-centered columns">
-            <div class="row">
-              <div class="small-7 columns">
-                <p>email@emailaddress.com</p>
-              </div>
-              <div class="small-5 columns">
-                <p><a href="#">Remove</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="small-12 small-centered columns">
-            <div class="row">
-              <div class="small-7 columns">
-                <p>email@emailaddress.com</p>
-              </div>
-              <div class="small-5 columns">
-                <p><a href="#">Remove</a></p>
-              </div>
-            </div>
-          </div>
-      
-        </div>
-      </form>
-
-      <form>
-        <div class="row">
-        
-        <h3>Connected Bank Account</h3>
-
-          <div class="small-12 small-centered columns">
-            <div class="row">
-              <div class="small-7 columns">
-                <p>Account ending with 5555</p>
-              </div>
-              <div class="small-5 columns">
-                <a href="/editAccount" data-reveal-id="editAccountModal" data-reveal>Edit</a>
-              </div>
-            </div>
-          </div>
-        
-        </div>
-      </form>
-
-      <footer>
-        <div class="row">
-          <div class="small-2 medium-6 columns">
-            <a href="index-li.html"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
-          </div>
-          <div class="small-10 medium-6 columns">
-            <ul class="inline-list right">
-              <li><a href="sitemap-li.html">Sitemap</a></li>
-              <li><a href="termsofservice-li.html">Terms of Service</a></li>
-              <li><a href="contact-li.html">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="copyright">
-          <p>Copyright 2014 Support More. All Rights Reserved.</p>
-        </div>
-      
-      </footer>
-      
-    </section>
+    </div>
     
     <div id="addAdminModal" class="reveal-modal" data-reveal>
-    
+  
       <form>
         <div class="row">
-          
+        
           <h2>Add Admin</h2>
-          
+        
           <div class="small-12 small-centered columns">
             <div class="row">
               <div class="small-4 columns">
@@ -162,7 +174,7 @@
               </div>
             </div>
           </div>
-          
+        
           <div class="small-12 small-centered columns">
             <div class="row">
               <div class="small-4 columns">
@@ -173,24 +185,24 @@
               </div>
             </div>
           </div>
-          
+        
           <div class="right">
             <a href='yourpagesettings.html' class='button'>Send</a>
           </div>
 
           <a class="close-reveal-modal">&#215;</a>
-          
+        
         </div>
       </form>
     </div>
-    
+  
     <div id="editAccountModal" class="reveal-modal" data-reveal>
-      
+    
       <form>
         <div class="row">
-          
+        
           <h2>Edit Bank Account Information</h2>
-          
+        
           <div class="small-12 small-centered columns">
             <div class="row">
               <div class="small-4 columns">
@@ -201,7 +213,7 @@
               </div>
             </div>
           </div>
-      
+    
           <div class="small-12 small-centered columns">
             <div class="row">
               <div class="small-4 columns">
@@ -212,16 +224,16 @@
               </div>
             </div>
           </div>
-      
+    
           <div class="right">
             <a href='yourpagesettings.html' class='button'>Done</a>
           </div>
-    
+  
           <a class="close-reveal-modal">&#215;</a>
-          
+        
         </div>
       </form>
-    
+  
     </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>

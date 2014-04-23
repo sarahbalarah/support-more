@@ -4924,8 +4924,8 @@ dialog > :last-child, .reveal-modal > :last-child {
 @media only screen and (min-width: 40.063em) {
   /* line 164, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
-    margin-left: -40%;
-    width: 80%;
+    margin-left: -25%;
+    width: 50%;
   }
 }
 @media only screen and (min-width: 40.063em) {
@@ -7792,49 +7792,38 @@ th.hide-for-touch {
 }
 
 /* line 1, ../scss/_overrides.scss */
-img.logo {
-  height: 20px;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-/* line 6, ../scss/_overrides.scss */
-.index-page.main {
-  background-color: #d85351;
-}
-/* line 9, ../scss/_overrides.scss */
-.index-page h2 {
-  color: #fff;
-  margin-top: 0;
-  padding-top: 100px;
-  font-size: 48px;
-  text-align: center;
-}
-/* line 16, ../scss/_overrides.scss */
-.index-page h3 {
-  color: #fff;
-  margin-bottom: 25px;
-  text-align: center;
-}
-/* line 21, ../scss/_overrides.scss */
-.index-page input {
-  margin-bottom: 100px;
+/* line 7, ../scss/_overrides.scss */
+a {
+  margin: 0;
+  padding: 0;
 }
 
-/* line 27, ../scss/_overrides.scss */
+/* line 12, ../scss/_overrides.scss */
 p {
   margin: 0;
 }
 
-/* line 31, ../scss/_overrides.scss */
+/* line 16, ../scss/_overrides.scss */
 footer {
   background-color: gainsboro;
   padding-top: 15px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 112px;
 }
-/* line 34, ../scss/_overrides.scss */
+/* line 23, ../scss/_overrides.scss */
 footer ul {
   display: inline-block;
   margin: 0 auto 0 auto;
 }
-/* line 37, ../scss/_overrides.scss */
+/* line 26, ../scss/_overrides.scss */
 footer ul li {
   display: inline-block;
   list-style: none;
@@ -7842,7 +7831,24 @@ footer ul li {
   padding: 0;
 }
 
-/* line 46, ../scss/_overrides.scss */
+/* line 35, ../scss/_overrides.scss */
+.container {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 112px;
+}
+
+/* line 41, ../scss/_overrides.scss */
+.content {
+  padding-bottom: 112px;
+}
+
+/* line 44, ../scss/_overrides.scss */
+img.logo {
+  height: 20px;
+}
+
+/* line 48, ../scss/_overrides.scss */
 .copyright {
   background-color: #629aae;
   padding: 15px;
@@ -7850,36 +7856,57 @@ footer ul li {
   text-align: center;
 }
 
-/* line 53, ../scss/_overrides.scss */
-a {
-  margin: 0;
-  padding: 0;
+/* line 55, ../scss/_overrides.scss */
+.index-page {
+  background-color: #d85351;
+}
+/* line 59, ../scss/_overrides.scss */
+.index-page.main {
+  min-height: 100%;
+}
+/* line 62, ../scss/_overrides.scss */
+.index-page h2 {
+  color: #fff;
+  margin-top: 0;
+  padding-top: 100px;
+  font-size: 48px;
+  text-align: center;
+}
+/* line 69, ../scss/_overrides.scss */
+.index-page h3 {
+  color: #fff;
+  margin-bottom: 25px;
+  text-align: center;
+}
+/* line 74, ../scss/_overrides.scss */
+.index-page input {
+  margin-bottom: 100px;
 }
 
-/* line 58, ../scss/_overrides.scss */
+/* line 79, ../scss/_overrides.scss */
 ul.mosaic {
   list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 0;
 }
-/* line 63, ../scss/_overrides.scss */
+/* line 84, ../scss/_overrides.scss */
 ul.mosaic li {
   display: inline-block;
   position: relative;
   font-size: 14px;
   max-height: 300px;
 }
-/* line 69, ../scss/_overrides.scss */
+/* line 90, ../scss/_overrides.scss */
 ul.mosaic li:hover span.charity-name {
   opacity: 1;
 }
-/* line 72, ../scss/_overrides.scss */
+/* line 93, ../scss/_overrides.scss */
 ul.mosaic img {
   max-height: 300px;
 }
 
-/* line 77, ../scss/_overrides.scss */
+/* line 98, ../scss/_overrides.scss */
 span.charity-name {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -7896,37 +7923,37 @@ span.charity-name {
   transition: opacity 500ms;
   max-height: 300px;
 }
-/* line 92, ../scss/_overrides.scss */
+/* line 113, ../scss/_overrides.scss */
 span.charity-name span {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 98, ../scss/_overrides.scss */
+/* line 119, ../scss/_overrides.scss */
 .description {
   margin-top: 20px;
 }
-/* line 100, ../scss/_overrides.scss */
+/* line 121, ../scss/_overrides.scss */
 .description li {
   list-style: none;
 }
 
-/* line 105, ../scss/_overrides.scss */
+/* line 126, ../scss/_overrides.scss */
 .donate-box {
   margin-top: 20px;
 }
-/* line 107, ../scss/_overrides.scss */
+/* line 128, ../scss/_overrides.scss */
 .donate-box h3 {
   text-align: center;
   color: #d85351;
 }
 
-/* line 113, ../scss/_overrides.scss */
+/* line 134, ../scss/_overrides.scss */
 .date {
   text-align: right;
 }
 
-/* line 117, ../scss/_overrides.scss */
+/* line 138, ../scss/_overrides.scss */
 .key-image {
   margin-top: 20px;
   text-align: center;

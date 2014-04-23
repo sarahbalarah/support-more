@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
+  
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,157 +9,168 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
   </head>
-
+  
   <body>
-
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-       <li class="name">
-         <h1><a href="index-li.html"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
-       </li>
-       <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-      </ul>
-
-      <section class="top-bar-section">
-        <ul class="right">
-          <li class="has-form">
-            <div class="row collapse">
-              <div class="large-8 small-9 columns">
-                <input type="text" placeholder="Name, organizer, area...">
-              </div>
-              <div class="large-4 small-3 columns">
-                <a href="searchresults-li.html" class="button expand">Search</a>
-              </div>
-            </div>
-          </li>
-          <li class="has-dropdown">
-           <a class='username' href="#">Hi Username</a>
-           <ul class="dropdown">
-             <li class="has-dropdown hover"><a href="#">Your Account</a>
-               <ul class="dropdown">
-                 <li><a href='yoursettings.html'>Account Settings</a></li>
-                 <li><a href='yourfavorites.html'>Favorites</a></li>
-                 <li><a href='yourdonations.html'>Donations</a></li>
-               </ul>
-             </li>
-             <li class="has-dropdown hover"><a href="#">Your Pages</a>
-               <ul class="dropdown">
-                 <li class="has-dropdown hover"><a href="#">Charity 1</a>
-                   <ul class="dropdown">
-                     <li><a href='charitypage-edit.html'>Edit Page</a></li>
-                     <li><a href='yourpagesettings.html'>Page Settings</a></li>
-                     <li><a href='yourgraphs.html'>Graphs</a></li>
-                     <li><a href='yourdonators.html'>Donators</a></li>
-                   </ul>
-                 </li>
-                 <li><a href="charitypage-edit.html">Create New Page</a></li>
-               </ul>
-             </li>
-             <li><a href="index-nli.html">Log Out</a></li>
-           </ul>
-          </li>
-        </ul>
-      </section>
-    </nav>
     
-    <section class="main">
+    <div class="container">
       
-      <div class="row">
-        <h2>Your Donations</h2>
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+         <li class="name">
+           <h1><a href="index-li.html"><img class="logo" src="images/logo.svg" alt="SUPPORT MORE"/></a></h1>
+         </li>
+         <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+        </ul>
 
-        <div class="small-12 columns">
+        <section class="top-bar-section">
+          <ul class="right">
+            <li class="has-form">
+              <div class="row collapse">
+                <div class="large-8 small-9 columns">
+                  <input type="text" placeholder="Name, organizer, area...">
+                </div>
+                <div class="large-4 small-3 columns">
+                  <a href="searchresults-li.html" class="button expand">Search</a>
+                </div>
+              </div>
+            </li>
+            <li class="has-dropdown">
+             <a class='username' href="#">Hi Username</a>
+             <ul class="dropdown">
+               <li class="has-dropdown hover"><a href="#">Your Account</a>
+                 <ul class="dropdown">
+                   <li><a href='yoursettings.html'>Account Settings</a></li>
+                   <li><a href='yourfavorites.html'>Favorites</a></li>
+                   <li><a href='yourdonations.html'>Donations</a></li>
+                 </ul>
+               </li>
+               <li class="has-dropdown hover"><a href="#">Your Pages</a>
+                 <ul class="dropdown">
+                   <li class="has-dropdown hover"><a href="#">Charity 1</a>
+                     <ul class="dropdown">
+                       <li><a href='charitypage-edit.html'>Edit Page</a></li>
+                       <li><a href='yourpagesettings.html'>Page Settings</a></li>
+                       <li><a href='yourgraphs.html'>Graphs</a></li>
+                       <li><a href='yourdonators.html'>Donators</a></li>
+                     </ul>
+                   </li>
+                   <li><a href="charitypage-edit.html">Create New Page</a></li>
+                 </ul>
+               </li>
+               <li><a href="index-nli.html">Log Out</a></li>
+             </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+      
+      <section class="main">
         
-          <h3>Donation History</h3>
-        
-          <table>
-
-            <thead>
-      			  <tr>
-      		      <th width="100">Date</th>
-      		      <th width="200">Charity Name</th>
-      		      <th width="100">Amount</th>
-      		    </tr>
-      		  </thead>
-			  
-            <tbody>
-    			    <tr>
-    			      <td>03/20/14</td>
-    			      <td><a href="charitypage-li.html">Charity Name</a></td>
-    			      <td>$50.00</td>
-    			    </tr>
-    			    <tr>
-    			      <td>02/20/14</td>
-    			      <td><a href="charitypage-li.html">Charity Name</a></td>
-    			      <td>$50.00</td>
-    			    </tr>
-    			    <tr>
-    			      <td>01/20/14</td>
-    			      <td><a href="charitypage-li.html">Charity Name</a></td>
-    			      <td>$50.00</td>
-    			    </tr>
-            </tbody>
-        
-      		</table>
-        
-        </div>
-
-        <div class="small-12 columns">
-        
-          <h3>Recurring Donations</h3>
-          <div class="right">
-            <a href="/editRecurring" data-reveal-id="editRecurringModal" data-reveal>Edit</a>
+        <div class="content">
+          
+          <div class="row">
+            <div class="small-12 columns">
+              <h2>Your Donations</h2>
+            </div>
           </div>
-        
-          <table>
-        
-            <thead>
-              <tr>
-                <th width="150">Charity Name</th>
-                <th width="50">Repeat</th>
-                <th width="50">Amount</th>
-                <th width="100">Account</th>
-                <th width="50">Started</th>
-                <th width="50">Next Payment</th>                                        
-              </tr>
-            </thead>
-        
-            <tbody>
-              <tr>
-                <td><a href="charitypage-li.html">Charity Name</a></td>
-                <td>Monthly</td>
-                <td>$50.00</td>
-                <td>Visa 5555</td>
-                <td>01/30/14</td>
-                <td>04/30/14</td>
-              </tr>
-            </tbody>
-          </table>
-      
-        </div>
-      </div>
-      
-      <footer>
-        <div class="row">
-          <div class="small-2 medium-6 columns">
-            <a href="index-li.html"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+          
+          <div class="row">
+            <div class="small-12 columns">
+            
+              <h3>Donation History</h3>
+            
+              <table>
+              
+                <thead>
+                  <tr>
+                    <th width="100">Date</th>
+                    <th width="200">Charity Name</th>
+                    <th width="100">Amount</th>
+                  </tr>
+                </thead>
+              
+                <tbody>
+                  <tr>
+                    <td>03/20/14</td>
+                    <td><a href="charitypage-li.html">Charity Name</a></td>
+                    <td>$50.00</td>
+                  </tr>
+                  <tr>
+                    <td>02/20/14</td>
+                    <td><a href="charitypage-li.html">Charity Name</a></td>
+                    <td>$50.00</td>
+                  </tr>
+                  <tr>
+                    <td>01/20/14</td>
+                    <td><a href="charitypage-li.html">Charity Name</a></td>
+                    <td>$50.00</td>
+                  </tr>
+                </tbody>
+              
+              </table>
+            
+            </div>
           </div>
-          <div class="small-10 medium-6 columns">
-            <ul class="inline-list right">
-              <li><a href="sitemap-li.html">Sitemap</a></li>
-              <li><a href="termsofservice-li.html">Terms of Service</a></li>
-              <li><a href="contact-li.html">Contact</a></li>
-            </ul>
+          
+          <div class="row">
+            <div class="small-12 columns">
+            
+              <h3>Recurring Donations</h3><a href="/editRecurring" data-reveal-id="editRecurringModal" data-reveal>Edit</a>
+              
+              <table>
+              
+                  <thead>
+                    <tr>
+                      <th width="150">Charity Name</th>
+                      <th width="50">Repeat</th>
+                      <th width="50">Amount</th>
+                      <th width="100">Account</th>
+                      <th width="50">Started</th>
+                      <th width="50">Next Payment</th>                                        
+                    </tr>
+                  </thead>
+                
+                  <tbody>
+                    <tr>
+                      <td><a href="charitypage-li.html">Charity Name</a></td>
+                      <td>Monthly</td>
+                      <td>$50.00</td>
+                      <td>Visa 5555</td>
+                      <td>01/30/14</td>
+                      <td>04/30/14</td>
+                    </tr>
+                  </tbody>
+                  
+                </table>
+            </div>
           </div>
+          
         </div>
-
-        <div class="copyright">
-          <p>Copyright 2014 Support More. All Rights Reserved.</p>
-        </div>
+        
+        <footer>
+          <div class="row">
+            <div class="small-2 medium-6 columns">
+              <a href="index-li.html"><img class="logo" src="images/logo-color.svg" alt="SUPPORT MORE"/></a>
+            </div>
+            <div class="small-10 medium-6 columns">
+              <ul class="inline-list right">
+                <li><a href="sitemap-li.html">Sitemap</a></li>
+                <li><a href="termsofservice-li.html">Terms of Service</a></li>
+                <li><a href="contact-li.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="copyright">
+            <p>Copyright 2014 Support More. All Rights Reserved.</p>
+          </div>
+          
+        </footer>
+        
+      </section>
       
-      </footer>
-
-    </section>
-
+    </div>
+    
     <div id="editRecurringModal" class="reveal-modal" data-reveal>
       
       <h3>Edit Recurring Donations</h3>
@@ -220,7 +231,7 @@
         </div>
       </form>
     </div>
-
+    
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
