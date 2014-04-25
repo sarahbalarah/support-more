@@ -72,6 +72,18 @@
               <h2>Your Graphs</h2>
             </div>
           </div>
+          
+          <div class="row">
+            <div class="small-6 columns">
+              <h3>Visits to Page</h3>
+              <canvas id="visitsChart" width="400" height="400"></canvas>
+            </div>
+            <div class="small-6 columns">
+              <h3>Donations</h3>
+              <canvas id="donationChart" width="400" height="400"></canvas>
+            </div>
+          </div>
+          
         
         </div>
         
@@ -99,9 +111,42 @@
       
     </div>
     
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
+    <script type='text/javascript' src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type='text/javascript' src="bower_components/foundation/js/foundation.min.js"></script>
+    <script type='text/javascript' src="js/Chart.js"></script>
+    <script type='text/javascript' src="js/app.js"></script>
+    <script type='text/javascript'>
+      var visitsData = {
+        labels: ["May","June","July","August","September","October","November","December","January","February","March","April"],
+        datasets : [
+          {
+            fillColor : "rgba(114,114,114,0.5)",
+            strokeColor : "rgba(114,114,114,1)",
+            pointColor : "rgba(114,114,114,1)",
+            pointStrokeColor : "#fff",
+            data : [70000,80500,75000,95000,77500,105000,85000,77500,65000,85000,125000,110000]
+          },
+        ]
+      }
+      var ctx = document.getElementById("visitsChart").getContext("2d");
+      var visitsChart = new Chart(ctx).Line(visitsData);
+      
+      var donationData = {
+        labels: ["May","June","July","August","September","October","November","December","January","February","March","April"],
+        datasets : [
+          {
+            fillColor : "rgba(114,114,114,0.5)",
+            strokeColor : "rgba(114,114,114,1)",
+            pointColor : "rgba(114,114,114,1)",
+            pointStrokeColor : "#fff",
+            data : [9000,11000,7500,9500,7750,10500,8500,7750,6500,10000,11500,12000]
+          },
+        ]
+      }
+      var ctx = document.getElementById("donationChart").getContext("2d");
+      var donationChart = new Chart(ctx).Line(donationData);
+      
+    </script>
   
   </body>
 

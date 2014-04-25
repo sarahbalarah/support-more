@@ -19,7 +19,7 @@ footer {
   bottom: 0;
   position: absolute;
   width: 100%;
-  height: 112px;
+  height: 90px;
   ul {
     display: inline-block;
     margin: 0 auto 0 auto;
@@ -35,12 +35,13 @@ footer {
 .container {
   min-height: 100%;
   position: relative;
-  padding-bottom: 112px;
+  padding-bottom: 90px;
 }
 
 .content {
-  padding-bottom: 112px;
+  padding-bottom: 90px;
 }
+
 img.logo {
   height: 20px;
 }
@@ -50,6 +51,9 @@ img.logo {
   padding: 15px;
   color: #fff;
   text-align: center;
+  p {
+    font-size: 12px;
+  }
 }
 
 .index-page {
@@ -139,4 +143,8 @@ span.charity-name {
   margin-top: 20px;
   text-align: center;
 
+}
+
+.edit {
+  font-size: 14px;
 }

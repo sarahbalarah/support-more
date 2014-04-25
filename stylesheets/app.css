@@ -7816,7 +7816,7 @@ footer {
   bottom: 0;
   position: absolute;
   width: 100%;
-  height: 112px;
+  height: 90px;
 }
 /* line 23, ../scss/_overrides.scss */
 footer ul {
@@ -7835,36 +7835,40 @@ footer ul li {
 .container {
   min-height: 100%;
   position: relative;
-  padding-bottom: 112px;
+  padding-bottom: 90px;
 }
 
 /* line 41, ../scss/_overrides.scss */
 .content {
-  padding-bottom: 112px;
+  padding-bottom: 90px;
 }
 
-/* line 44, ../scss/_overrides.scss */
+/* line 45, ../scss/_overrides.scss */
 img.logo {
   height: 20px;
 }
 
-/* line 48, ../scss/_overrides.scss */
+/* line 49, ../scss/_overrides.scss */
 .copyright {
   background-color: #629aae;
   padding: 15px;
   color: #fff;
   text-align: center;
 }
+/* line 54, ../scss/_overrides.scss */
+.copyright p {
+  font-size: 12px;
+}
 
-/* line 55, ../scss/_overrides.scss */
+/* line 59, ../scss/_overrides.scss */
 .index-page {
   background-color: #d85351;
 }
-/* line 59, ../scss/_overrides.scss */
+/* line 63, ../scss/_overrides.scss */
 .index-page.main {
   min-height: 100%;
 }
-/* line 62, ../scss/_overrides.scss */
+/* line 66, ../scss/_overrides.scss */
 .index-page h2 {
   color: #fff;
   margin-top: 0;
@@ -7872,41 +7876,41 @@ img.logo {
   font-size: 48px;
   text-align: center;
 }
-/* line 69, ../scss/_overrides.scss */
+/* line 73, ../scss/_overrides.scss */
 .index-page h3 {
   color: #fff;
   margin-bottom: 25px;
   text-align: center;
 }
-/* line 74, ../scss/_overrides.scss */
+/* line 78, ../scss/_overrides.scss */
 .index-page input {
   margin-bottom: 100px;
 }
 
-/* line 79, ../scss/_overrides.scss */
+/* line 83, ../scss/_overrides.scss */
 ul.mosaic {
   list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 0;
 }
-/* line 84, ../scss/_overrides.scss */
+/* line 88, ../scss/_overrides.scss */
 ul.mosaic li {
   display: inline-block;
   position: relative;
   font-size: 14px;
   max-height: 300px;
 }
-/* line 90, ../scss/_overrides.scss */
+/* line 94, ../scss/_overrides.scss */
 ul.mosaic li:hover span.charity-name {
   opacity: 1;
 }
-/* line 93, ../scss/_overrides.scss */
+/* line 97, ../scss/_overrides.scss */
 ul.mosaic img {
   max-height: 300px;
 }
 
-/* line 98, ../scss/_overrides.scss */
+/* line 102, ../scss/_overrides.scss */
 span.charity-name {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -7923,38 +7927,43 @@ span.charity-name {
   transition: opacity 500ms;
   max-height: 300px;
 }
-/* line 113, ../scss/_overrides.scss */
+/* line 117, ../scss/_overrides.scss */
 span.charity-name span {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 119, ../scss/_overrides.scss */
+/* line 123, ../scss/_overrides.scss */
 .description {
   margin-top: 20px;
 }
-/* line 121, ../scss/_overrides.scss */
+/* line 125, ../scss/_overrides.scss */
 .description li {
   list-style: none;
 }
 
-/* line 126, ../scss/_overrides.scss */
+/* line 130, ../scss/_overrides.scss */
 .donate-box {
   margin-top: 20px;
 }
-/* line 128, ../scss/_overrides.scss */
+/* line 132, ../scss/_overrides.scss */
 .donate-box h3 {
   text-align: center;
   color: #d85351;
 }
 
-/* line 134, ../scss/_overrides.scss */
+/* line 138, ../scss/_overrides.scss */
 .date {
   text-align: right;
 }
 
-/* line 138, ../scss/_overrides.scss */
+/* line 142, ../scss/_overrides.scss */
 .key-image {
   margin-top: 20px;
   text-align: center;
+}
+
+/* line 148, ../scss/_overrides.scss */
+.edit {
+  font-size: 14px;
 }
